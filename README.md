@@ -184,3 +184,12 @@ We would like to thank the following people:
 * [Suzy](https://github.com/suzybee1987) Our hackathon facilitator
 * Our families for their endless patience as we disappeared for a weekend to code
 * The Code Institute Hackathon team for putting on these wonderful events to allow us to develop our skills within an agile development environment.
+
+Meet team ...:
+
+[Alaa](https://github.com/Hijazi-alaa)
+[Cillian](https://github.com/Cillian-G)
+[Janelle](https://github.com/JanelleG51)
+[John](https://github.com/johnjmci)
+[Kera](https://github.com/kera-cudmore)
+[Trevor](https://github.com/trevthedev777)

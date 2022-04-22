@@ -55,8 +55,6 @@ W3C Validator badge to go here once deployed
 ## User Experience
 
 ### User Stories
-## User Stories
-
 
 #### First Time Visitor Goals
 

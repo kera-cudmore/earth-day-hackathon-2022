@@ -1,6 +1,6 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+Welcome Cillian G,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
@@ -106,3 +106,17 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+## User Stories
+
+### As a first-time user, I want …
+- to quickly and easily discover charities that are local to me, that have an environmental focus, and which reflect my values and interests, without having to research and compare a range of organisations.
+- to be profiled for these recommendations through a light-hearted, multiple choice quiz.
+- to be presented with a link to my recommended organisation’s website.
+- to feel secure in the knowledge that my recommended organisation is a legitimate,  registered charity.
+- to  be able to easily navigate back to the homepage after completing the quiz if I wish to repeat the quiz with different answers.
+- to have a means of learning more about Earth Day, and its theme for 2022, as well as a resource for discovering more organisations that work in these areas.
+
+### As a returning user, I want…
+- to be able to access a full list of the charities for my area of choice, without having to navigate the quiz repeatedly to get different results.
+- to have different quiz questions presented to me based on my earlier choices in the quiz, creating a sense a variety that encourages repeat use.

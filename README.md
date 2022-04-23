@@ -137,14 +137,6 @@ Wireframes were created for mobile, tablet and desktop using Balsamiq.
 </details>
 
 <details>
-<summary>Contact Page Wireframe</summary>
-<br>
-
-![Contact Page](readme/wireframes/contact-wireframe.png)
-
-</details>
-
-<details>
 <summary>404 Error Page Wireframe</summary>
 <br>
 

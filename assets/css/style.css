@@ -1,0 +1,191 @@
+/*-------------------------------------*/
+/* GLOBAL SETUP */
+/*-------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+:root {
+    --dark-green:  #03292c;
+    --emerald-green: #0e5150;
+    --teal: #158673;
+    --light-blue: #63cbe9;
+    --brown: #905a39;
+    --beige: #e1aa5f;
+    --black: #000;
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: var(--dark-green);
+    font-family: 'Oxygen', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*-------------------------------------*/
+/* REUSABLE COMPONENTS */
+/*-------------------------------------*/
+
+h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* -----BUTTONS------ */
+
+.btn:link,
+.btn:visited {
+    display:inline-block;
+    color: #fff;
+    border-radius: 200px;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: var(--brown);
+    border: 1px solid var(--brown);
+    margin-right: 15px;
+    
+}
+
+.btn-blank:link,
+.btn-blank:visited {
+    border: 1px solid var(--brown);
+}
+
+.btn:hover,
+.btn:active {
+    background-color: var(--emerald-green);
+
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid var(--emerald-green);
+    
+}
+
+.btn-blank:hover,
+.btn-blank:active {
+    border: 1px solid var(--emerald-green);
+}
+
+/*-------------------------------------*/
+/* HEADER */
+/*-------------------------------------*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero-image-earth-day.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.hero-text {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    float: left;
+    margin-top: 20px;
+
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #fff;
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    padding: 8px 0;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid var(--beige);
+
+}
+
+/*-------------------------------------*/
+/* MEDIA QUERIES */
+/*-------------------------------------*/
+
+
+/* big tablets to larger screens */
+@media only screen and (max-width: 1200px) {
+    .hero-text {
+        width: 100%;
+        padding: 0 2.5rem;
+    }
+
+    .row {
+        padding: 0 2.5rem;
+    }
+
+}
+
+
+/* small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px){
+    html { 
+        font-size: 17px;
+    }
+
+}
+
+
+/* small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    html { 
+        font-size: 14px;
+    }
+
+}
+
+/* small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+}

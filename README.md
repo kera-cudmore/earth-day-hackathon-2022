@@ -82,7 +82,7 @@ Visit the deployed site: [Charity Earth](https://kera-cudmore.github.io/earth-da
 
 ### Colour Scheme
 
-Image of colour scheme to go here - coolors?
+![Colour Palette](readme/colour-palette.png)
 
 ### Typography
 
@@ -140,7 +140,7 @@ Git - For version control.
 
 Github - To save and store the files for the website.
 
-?Coolors - To select the colour palette for the site.
+[Coolors](https://coolors.co/) - To select the colour palette for the site.
 
 Google Fonts - To import the fonts used on the website.
 

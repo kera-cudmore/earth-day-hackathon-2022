@@ -2,6 +2,10 @@
 
 Charity Earth was created as part of the April 2022 Earth Day Hackathon held by the Code Institute.
 
+Charity Earth - Tell us what you value - The fun way to discover new environmental charities! Take a short quiz and based on your areas of interest we will suggest a charity that would love a donation from you.
+
+Don't have any spare funds but still want to contribute? Select to donate your time instead! Want to donate to a specific area of the UK? We can help you find the right charity for that area.
+
 Add site responsive screenshot here
 
 Visit the deployed site: [Charity Earth](https://kera-cudmore.github.io/earth-day-hackathon-2022/)
@@ -193,13 +197,13 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 [Tiny PNG](https://tinypng.com/) To compress images.
 
-?[Birme](https://www.birme.net/) To resize images and convert to webp format.
-
 [Favicon.io](https://favicon.io/) To create favicon.
 
 [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 
 [Shields.io](https://shields.io/) To add badges to the README
+
+[remove.bg](https://www.remove.bg/) To remove the background from the logo image
 
 - - -
 

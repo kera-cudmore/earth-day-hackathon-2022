@@ -150,6 +150,28 @@ header {
 }
 
 /*-------------------------------------*/
+/* CONTACT US PAGE */
+/*-------------------------------------*/
+
+.contact-section {
+    background-color: var(--emerald-green);
+    color: var(--white);
+}
+
+fieldset {
+    border: var(--brown) 2px solid;
+    border-radius: 2rem;
+}
+
+.form-input {
+    padding-bottom: 1rem;
+}
+
+input, textarea {
+    width: 90%;
+}
+
+/*-------------------------------------*/
 /* MEDIA QUERIES */
 /*-------------------------------------*/
 

@@ -245,6 +245,9 @@ Please view [Testing.md](TESTING.md) for the testing documentation.
 
 ### Media
 
+* [Header Image](https://unsplash.com/photos/0DtcZKzrP6Y) used on the index page and 404 page
+* [Logo Image](https://pxhere.com/en/photo/1093799)
+
 ### Acknowledgments
 
 We would like to thank the following people:
@@ -253,11 +256,11 @@ We would like to thank the following people:
 * Our families for their endless patience as we disappeared for a weekend to code
 * The Code Institute Hackathon team for putting on these wonderful events to allow us to develop our skills within an agile development environment.
 
-Meet team ...:
+Meet team 5 Hackathon Newbies & Me!
 
-[Alaa](https://github.com/Hijazi-alaa)
-[Cillian](https://github.com/Cillian-G)
-[Janelle](https://github.com/JanelleG51)
-[John](https://github.com/johnjmci)
-[Kera](https://github.com/kera-cudmore)
-[Trevor](https://github.com/trevthedev777)
+* [Alaa](https://github.com/Hijazi-alaa)
+* [Cillian](https://github.com/Cillian-G)
+* [Janelle](https://github.com/JanelleG51)
+* [John](https://github.com/johnjmci)
+* [Kera](https://github.com/kera-cudmore)
+* [Trevor](https://github.com/trevthedev777)

@@ -57,7 +57,6 @@ a {
 
 section {
     padding: 80px 0;
-    height: 1000px;
     
 }
 
@@ -421,6 +420,8 @@ footer {
 }
 
 /* small phones: from 0 to 480px */
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    
+}
 
 

@@ -34,15 +34,36 @@ html {
 /* REUSABLE COMPONENTS */
 /*-------------------------------------*/
 
-h1 {
-    margin: 0;
-    margin-bottom: 20px;
+h1,
+h2 { 
+    letter-spacing: 1px; 
     font-size: 2rem;
     font-weight: 300;
     text-transform: uppercase;
     color: #fff;
-    letter-spacing: 1px;
+    
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 20px;
     word-spacing: 4px;
+    line-height: 55px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding: 80px 0;
+    height: 1000px;
+    
+}
+
+.quiz-section {
+    clear: both;
 }
 
 .row {
@@ -59,7 +80,6 @@ h1 {
     border-radius: 200px;
     padding: 10px 30px;
     font-weight: 300;
-    text-decoration: none;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 
 }
@@ -117,9 +137,21 @@ header {
 
 .logo {
     float: left;
-    margin-top: 20px;
-
+    margin-top: 15px;
 }
+
+.fixed-logo {
+    display: none;
+    float: left;
+    
+}
+
+.fixed-logo h1 {
+    font-size: 1.15rem;
+}
+
+
+/* ----MAIN NAV----*/
 
 .main-nav {
     float: right;
@@ -136,7 +168,6 @@ header {
 .main-nav li a:visited {
     color: #fff;
     font-size: 0.9rem;
-    text-decoration: none;
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
     padding: 8px 0;
@@ -148,6 +179,50 @@ header {
     border-bottom: 2px solid var(--beige);
 
 }
+
+/*----FIXED NAV----*/
+
+.fixed {
+    background-color: #905a399b;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 9999; 
+}
+
+.fixed .main-nav li a:link,
+.fixed .main-nav li a:visited {
+    color: #fff;
+    padding: 10px 0;
+}
+
+.fixed .main-nav {
+    margin-top: 15px;
+}
+
+.fixed .fixed-logo {
+    display: block;
+}
+
+.fixed .logo {
+    display: none;
+}
+
+.mobile-icon {
+    display: none;
+    margin-top: 30px;
+    cursor: pointer;
+    float: right;
+}
+
+.mobile-icon i {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+
 
 /*-------------------------------------*/
 /* CONTACT US PAGE */
@@ -171,45 +246,6 @@ input,
 textarea {
     width: 90%;
 }
-
-/*-------------------------------------*/
-/* MEDIA QUERIES */
-/*-------------------------------------*/
-
-
-/* big tablets to larger screens */
-@media only screen and (max-width: 1200px) {
-    .hero-text {
-        width: 100%;
-        padding: 0 2.5rem;
-    }
-
-    .row {
-        padding: 0 2.5rem;
-    }
-
-}
-
-
-/* small tablet to big tablet: from 768px to 1023px */
-@media only screen and (max-width: 1023px) {
-    html {
-        font-size: 17px;
-    }
-
-}
-
-
-/* small phones to small tablets: from 481px to 767px */
-@media only screen and (max-width: 767px) {
-    html {
-        font-size: 14px;
-    }
-
-}
-
-/* small phones: from 0 to 480px */
-@media only screen and (max-width: 480px) {}
 
 /*-------------------------------------*/
 /* FOOTER */
@@ -257,3 +293,81 @@ footer {
     border-bottom: 2px solid var(--beige);
     font-weight: 600;
 }
+
+
+/*-------------------------------------*/
+/* MEDIA QUERIES */
+/*-------------------------------------*/
+
+
+/* big tablets to larger screens */
+@media only screen and (max-width: 1200px) {
+    .hero-text {
+        width: 100%;
+        padding: 0 2.5rem;
+    }
+
+    .row {
+        padding: 0 2.5rem;
+    }
+
+}
+
+
+/* small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    html {
+        font-size: 17px;
+    }
+
+}
+
+
+/* small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    html {
+        font-size: 14px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .mobile-icon {
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .main-nav {
+        margin-top: 25px;
+        margin-left: 35px;
+        float: left;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        font-size: 1rem;
+        display: block;
+        padding: 10px 0;
+        border: 0;
+    }
+
+    .fixed .main-nav li a:link,
+    .fixed .main-nav li a:visited {
+        padding: 10px 0;
+    }
+
+    .fixed .main-nav {
+        margin-top: 10px;
+    }
+
+}
+
+/* small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {}
+
+

@@ -1,16 +1,16 @@
-# Earth day hackathon 2022. (Change to site name once chosen)
+# Charity Earth
 
-Information about the website to go here.
+Charity Earth was created as part of the April 2022 Earth Day Hackathon held by the Code Institute.
 
 Add site responsive screenshot here
 
-Link to deployed site to go here
+Visit the deployed site: [Charity Earth](https://kera-cudmore.github.io/earth-day-hackathon-2022/)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/kera-cudmore/earth-day-hackathon-2022?color=red&style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/kera-cudmore/earth-day-hackathon-2022?color=orange&style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/kera-cudmore/earth-day-hackathon-2022?color=yellow&style=for-the-badge)
 ![GitHub top language](https://img.shields.io/github/languages/top/kera-cudmore/earth-day-hackathon-2022?color=green&style=for-the-badge)
-W3C Validator badge to go here once deployed
+![W3C Validation](https://img.shields.io/w3c-validation/default?color=blue&style=for-the-badge&targetUrl=https%3A%2F%2Fkera-cudmore.github.io%2Fearth-day-hackathon-2022%2F)
 
 ## CONTENTS
 
@@ -58,19 +58,23 @@ W3C Validator badge to go here once deployed
 
 #### First Time Visitor Goals
 
-- to quickly and easily discover charities that are local to me, that have an environmental focus, and which reflect my values and interests, without having to research and compare a range of organisations.
-- to be profiled for these recommendations through a light-hearted, multiple choice quiz.
-- to be presented with a link to my recommended organisation’s website.
-- to feel secure in the knowledge that my recommended organisation is a legitimate,  registered charity.
-- to  be able to easily navigate back to the homepage after completing the quiz if I wish to repeat the quiz with different answers.
-- to have a means of learning more about Earth Day, and its theme for 2022, as well as a resource for discovering more organisations that work in these areas.
+* To quickly and easily discover charities that are local to me, that have an environmental focus, and which reflect my values and interests, without having to research and compare a range of organisations.
+
+* To be profiled for these recommendations through a light-hearted, multiple choice quiz.
+
+* To be presented with a link to my recommended organisation’s website.
+
+* To feel secure in the knowledge that my recommended organisation is a legitimate,  registered charity.
+
+* To  be able to easily navigate back to the homepage after completing the quiz if I wish to repeat the quiz with different answers.
+
+* To have a means of learning more about Earth Day, and its theme for 2022, as well as a resource for discovering more organisations that work in these areas.
 
 #### Returning Visitor Goals
 
-- to be able to access a full list of the charities for my area of choice, without having to navigate the quiz repeatedly to get different results.
-- to have different quiz questions presented to me based on my earlier choices in the quiz, creating a sense a variety that encourages repeat use.
+* To be able to access a full list of the charities for my area of choice, without having to navigate the quiz repeatedly to get different results.
 
-#### Frequent Visitor Goals
+* To have different quiz questions presented to me based on my earlier choices in the quiz, creating a sense a variety that encourages repeat use.
 
 - - -
 
@@ -78,25 +82,79 @@ W3C Validator badge to go here once deployed
 
 ### Colour Scheme
 
-Image of colour scheme to go here - coolors?
+![Colour Palette](readme/colour-palette.png)
 
 ### Typography
 
 Google Fonts was used to import the chosen fonts for use in the site.
 
+We have chosen to use the oxygen font. This is a sans serif font which is great for accessibility and dyslexic users. We also felt the name was very fitting for use on our site for Earth Day 😊.
+
+![Oxygen Google Font](readme/oxygen.png)
+
 ### Imagery
 
 ### Wireframes
 
-Wireframes were created for mobile, tablet and desktop using ...
+Wireframes were created for mobile, tablet and desktop using Balsamiq.
 
-Wireframes links/images to go here
+<details>
+<summary>Index Page Wireframe</summary>
+<br>
+
+![Index page](readme/wireframes/readme_wireframes_home_screen.png)
+
+</details>
+
+<details>
+<summary>Quiz Screen Wireframe</summary>
+<br>
+
+![Quiz](readme/wireframes/readme_wireframes_quiz_screen.png)
+
+</details>
+
+<details>
+<summary>End of Quiz Wireframe</summary>
+<br>
+
+![End of Quiz](readme/wireframes/readme_end_quiz_screen.png)
+
+</details>
+
+<details>
+<summary>Result Wireframe</summary>
+<br>
+
+![Results](readme/wireframes/readme_charity_donation_screen.png)
+
+</details>
+
+<details>
+<summary>Contact Page Wireframe</summary>
+<br>
+
+![Contact Page](readme/wireframes/contact-wireframe.png)
+
+</details>
+
+<details>
+<summary>404 Error Page Wireframe</summary>
+<br>
+
+![404 Error Page](readme/wireframes/error-wireframe.png)
+
+</details>
 
 ### Features
 
-The website is comprised of …
+The website is comprised of … pages. They are: an index page,
 
 * All Pages on the website have:
+
+  * A favicon. We have chosen to use an image of the Earth to tie our site in the with Earth Day theme of the hackathon.
+
+    ![Favicon](readme/favicon.png)
 
 * Future Implementations.
 
@@ -125,7 +183,7 @@ Git - For version control.
 
 Github - To save and store the files for the website.
 
-?Coolors - To select the colour palette for the site.
+[Coolors](https://coolors.co/) - To select the colour palette for the site.
 
 Google Fonts - To import the fonts used on the website.
 
@@ -133,7 +191,7 @@ Google Fonts - To import the fonts used on the website.
 
 Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-?[Tiny PNG](https://tinypng.com/) To compress images.
+[Tiny PNG](https://tinypng.com/) To compress images.
 
 ?[Birme](https://www.birme.net/) To resize images and convert to webp format.
 
@@ -149,7 +207,7 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 ### Deployment
 
-The site is deployed using GitHub Pages.
+The site is deployed using GitHub Pages. Visit the deployed site [here.](https://kera-cudmore.github.io/earth-day-hackathon-2022/)
 
 ### Local Development
 

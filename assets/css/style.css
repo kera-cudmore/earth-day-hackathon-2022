@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 
 :root {
-    --dark-green:  #03292c;
+    --dark-green: #03292c;
     --emerald-green: #0e5150;
     --teal: #158673;
     --light-blue: #63cbe9;
@@ -75,13 +75,13 @@ section {
 
 .btn:link,
 .btn:visited {
-    display:inline-block;
+    display: inline-block;
     color: #fff;
     border-radius: 200px;
     padding: 10px 30px;
     font-weight: 300;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
-    
+
 }
 
 .btn-full:link,
@@ -89,7 +89,7 @@ section {
     background-color: var(--brown);
     border: 1px solid var(--brown);
     margin-right: 15px;
-    
+
 }
 
 .btn-blank:link,
@@ -106,7 +106,7 @@ section {
 .btn-full:hover,
 .btn-full:active {
     border: 1px solid var(--emerald-green);
-    
+
 }
 
 .btn-blank:hover,
@@ -225,6 +225,77 @@ header {
 
 
 /*-------------------------------------*/
+/* CONTACT US PAGE */
+/*-------------------------------------*/
+
+.contact-section {
+    background-color: var(--emerald-green);
+    color: var(--white);
+}
+
+fieldset {
+    border: var(--brown) 2px solid;
+    border-radius: 2rem;
+}
+
+.form-input {
+    padding-bottom: 1rem;
+}
+
+input,
+textarea {
+    width: 90%;
+}
+
+/*-------------------------------------*/
+/* FOOTER */
+/*-------------------------------------*/
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    overflow: hidden;
+    background-color: #158673;
+    min-height: 80px;
+}
+
+
+.footer-row {
+    margin-top: 6px;
+}
+
+
+.footer-list {
+    list-style: none;
+    margin-bottom: 1.5rem;
+    display: inline;
+    text-decoration: none;
+}
+
+.footer-links {
+    display: inline;
+    padding: 12px;
+}
+
+.footer-links>a,
+.footer-links>a:visited {
+    color: #fff;
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    padding: 8px 0;
+    transition: border-bottom 0.2s;
+}
+
+.footer-links>a:hover,
+.footer-links>a:active {
+    border-bottom: 2px solid var(--beige);
+    font-weight: 600;
+}
+
+
+/*-------------------------------------*/
 /* MEDIA QUERIES */
 /*-------------------------------------*/
 
@@ -244,8 +315,8 @@ header {
 
 
 /* small tablet to big tablet: from 768px to 1023px */
-@media only screen and (max-width: 1023px){
-    html { 
+@media only screen and (max-width: 1023px) {
+    html {
         font-size: 17px;
     }
 
@@ -254,7 +325,7 @@ header {
 
 /* small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
-    html { 
+    html {
         font-size: 14px;
     }
 
@@ -297,7 +368,6 @@ header {
 }
 
 /* small phones: from 0 to 480px */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {}
 
-}
 

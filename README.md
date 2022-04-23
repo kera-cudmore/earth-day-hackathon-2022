@@ -98,10 +98,53 @@ We have chosen to use the oxygen font. This is a sans serif font which is great 
 
 Wireframes were created for mobile, tablet and desktop using Balsamiq.
 
+<details>
+<summary>Index Page Wireframe</summary>
+<br>
+
 ![Index page](readme/wireframes/readme_wireframes_home_screen.png)
+
+</details>
+
+<details>
+<summary>Quiz Screen Wireframe</summary>
+<br>
+
 ![Quiz](readme/wireframes/readme_wireframes_quiz_screen.png)
+
+</details>
+
+<details>
+<summary>End of Quiz Wireframe</summary>
+<br>
+
 ![End of Quiz](readme/wireframes/readme_end_quiz_screen.png)
+
+</details>
+
+<details>
+<summary>Result Wireframe</summary>
+<br>
+
 ![Results](readme/wireframes/readme_charity_donation_screen.png)
+
+</details>
+
+<details>
+<summary>Contact Page Wireframe</summary>
+<br>
+
+![Contact Page](readme/wireframes/contact-wireframe.png)
+
+</details>
+
+<details>
+<summary>404 Error Page Wireframe</summary>
+<br>
+
+![404 Error Page](readme/wireframes/error-wireframe.png)
+
+</details>
 
 ### Features
 

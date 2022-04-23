@@ -86,6 +86,8 @@ Visit the deployed site: [Charity Earth](https://kera-cudmore.github.io/earth-da
 
 ### Colour Scheme
 
+We wanted to choose colours that reflected the environment, so we have chosen a variety of greens, blues and browns for our site.
+
 ![Colour Palette](readme/colour-palette.png)
 
 ### Typography
@@ -152,13 +154,21 @@ Wireframes were created for mobile, tablet and desktop using Balsamiq.
 
 ### Features
 
-The website is comprised of … pages. They are: an index page,
+The website is comprised of 2 pages, the index page and the 404 page.
+
+The index page is divided into sections, the hero image, the quiz, the information section and the contact section.
+
+The 404 page lets the user know that there has been an error and gives them the option through a choice of buttons to be redirected to the home page, the quiz section, the information section and the contact us section.
 
 * All Pages on the website have:
 
   * A favicon. We have chosen to use an image of the Earth to tie our site in the with Earth Day theme of the hackathon.
 
     ![Favicon](readme/favicon.png)
+
+  * A footer. The footer contains links to the various sections of the site for ease of naviagation.
+
+    ![Footer image](readme/footer.png)
 
 * Future Implementations.
 

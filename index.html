@@ -44,8 +44,10 @@
     <header>
         <nav>
             <div class="row">
-                <a class="logo" href="#"><h1 >Charity Earth</h1></a>
-                <a class="fixed-logo" href="#"><h1 >Charity Earth</h1></a>
+                <img src="assets/images/logo.png" class="logo" alt="Charity Earth logo">
+                <img src="assets/images/logo.png" class="fixed-logo" alt="Charity Earth logo">
+                <!--<a class="logo" href="index.html"><h1 >Charity Earth</h1></a>
+                <a class="fixed-logo" href="#"><h1 >Charity Earth</h1></a>-->
                 <ul class="main-nav main-nav-js">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#quiz">Quiz</a></li>
@@ -64,7 +66,8 @@
         </div>
     </header>
 
-    <section class="quiz-section nav-quiz-section" id="quiz">
+
+    <section id="quiz" class="quiz-section nav-quiz-section">
         <div class="row">
             <div>
                 <form id="location-selection-form" action="">
@@ -182,13 +185,13 @@
         </div>
     </section>
 
-    <section class="further-info-section" id="information">
+
+    <section id="information" class="further-info-section">
+
 
     </section>
 
-    <section class="contact-section" id="contact">
-
-        <fieldset>
+    <section id="contact" class="contact-section" id="contact">
             <form>
                 <h3 class="contact-heading">Get In Touch</h3>
                 <label for="name"></label>
@@ -196,9 +199,8 @@
                 <label for="email"></label>
                 <input name="email" id="email" type="text" class="contact-input" placeholder="Email" />
                 <textarea name="text" class="contact-input" placeholder="Type your message here"></textarea>
-                <input type="submit" value="SEND" />
+                <input class="btn" type="submit" value="SEND" />
             </form>
-        </fieldset>
     </section>
 
     <!-- footer -->

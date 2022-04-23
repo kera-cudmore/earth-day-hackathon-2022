@@ -21,7 +21,8 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     background-color: #fff;
     color: var(--dark-green);
     font-family: 'Oxygen', 'Arial', sans-serif;
@@ -134,13 +135,19 @@ header {
 }
 
 .logo {
+    height: 75px;
+    width: auto;
     float: left;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .fixed-logo {
     display: none;
     float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 45px;
+    width: auto;
     
 }
 
@@ -155,6 +162,7 @@ header {
     float: right;
     list-style: none;
     margin-top: 55px;
+    display: block;
 }
 
 .main-nav li {
@@ -181,7 +189,7 @@ header {
 /*----FIXED NAV----*/
 
 .fixed {
-    background-color: #905a399b;
+    background-color: #905a39e1;
     top: 0;
     left: 0;
     width: 100%;
@@ -217,23 +225,29 @@ header {
 .mobile-icon i {
     color: #fff;
     font-size: 1.5rem;
-    margin-top: 30px;
 }
 
 
-
 /*-------------------------------------*/
-/* Contact Form */
+/* CONTACT FORM */
 /*-------------------------------------*/
-
-
-body {
-    background: #fff;
-}
 
 form {
     max-width: 420px;
     margin: 50px auto;
+}
+
+.contact-section {
+    background-color: rgb(242, 238, 238);
+}
+
+.contact-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #905A39;
 }
 
 .contact-input {
@@ -262,13 +276,13 @@ textarea {
 }
 
 [type="submit"] {
-    width: 100%;
+    width: 25%;
     background: #0E5150;
     border-radius: 5px;
     border: 0;
     cursor: pointer;
     color: #905A39;
-    font-size: 30px;
+    font-size: 0.9rem;
     letter-spacing: 4px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -279,14 +293,6 @@ textarea {
 
 [type="submit"]:hover {
     background: #03292C;
-}
-
-.contact-heading {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 30px;
-    letter-spacing: 4px;
-    color: #905A39;
 }
 
 /*-------------------------------------*/
@@ -365,7 +371,6 @@ footer {
 
 }
 
-
 /* small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
     html {
@@ -373,7 +378,6 @@ footer {
     }
 
 }
-
 
 /* small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
@@ -387,7 +391,7 @@ footer {
 
     .mobile-icon {
         display: inline-block;
-        margin-top: 10px;
+        margin-top: 30px;
     }
 
     .main-nav {

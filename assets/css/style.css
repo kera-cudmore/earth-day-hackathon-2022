@@ -51,6 +51,12 @@ h2 {
     line-height: 55px;
 }
 
+p {
+    color: #e1aa5f;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+
+}
 
 a {
     text-decoration: none;

@@ -53,7 +53,8 @@
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Quiz</a></li>
                     <li><a href="#">Information</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+
                 </ul>
                 <a class="mobile-icon mobile-icon-js"><i class="fa-solid fa-bars"></i></a>
             </div>
@@ -188,18 +189,29 @@
 
     </section>
 
-    <section class="contact-section">
+    <section class="contact-section" id="contact">
 
+        <fieldset>
+            <form>
+                <h3 class="contact-heading">Get In Touch</h3>
+                <label for="name"></label>
+                <input name="name" id="name" type="text" class="contact-input" placeholder="Name" />
+                <label for="email"></label>
+                <input name="email" id="email" type="text" class="contact-input" placeholder="Email" />
+                <textarea name="text" class="contact-input" placeholder="Type your message here"></textarea>
+                <input type="submit" value="SEND" />
+            </form>
+        </fieldset>
     </section>
 
-
+    <!-- footer -->
     <footer>
         <div class="row footer-row">
             <ul class="footer-list">
                 <li class="footer-links"><a href="index.html">Home</a></li>
                 <li class="footer-links"><a href="#">Quiz</a></li>
                 <li class="footer-links"><a href="#">Information</a></li>
-                <li class="footer-links"><a href="contact.html">Contact Us</a></li>
+                <li class="footer-links"><a href="#contact">Contact Us</a></li>
             </ul>
         </div>
     </footer>

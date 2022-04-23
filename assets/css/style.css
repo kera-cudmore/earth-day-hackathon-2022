@@ -150,26 +150,70 @@ header {
 }
 
 /*-------------------------------------*/
-/* CONTACT US PAGE */
+/* Contact Form */
 /*-------------------------------------*/
 
-.contact-section {
-    background-color: var(--emerald-green);
-    color: var(--white);
+
+body {
+    background: #fff;
 }
 
-fieldset {
-    border: var(--brown) 2px solid;
-    border-radius: 2rem;
+form {
+    max-width: 420px;
+    margin: 50px auto;
 }
 
-.form-input {
-    padding-bottom: 1rem;
+.contact-input {
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid #905A39;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
 }
 
-input,
+.contact-input:focus {
+    border: 2px solid #158673;
+}
+
 textarea {
-    width: 90%;
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+[type="submit"] {
+    width: 100%;
+    background: #0E5150;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: #905A39;
+    font-size: 30px;
+    letter-spacing: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+
+[type="submit"]:hover {
+    background: #03292C;
+}
+
+.contact-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: #905A39;
 }
 
 /*-------------------------------------*/

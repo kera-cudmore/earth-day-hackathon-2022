@@ -2,6 +2,10 @@
 
 Charity Earth was created as part of the April 2022 Earth Day Hackathon held by the Code Institute.
 
+Charity Earth - Tell us what you value - The fun way to discover new environmental charities! Take a short quiz and based on your areas of interest we will suggest a charity that would love a donation from you.
+
+Don't have any spare funds but still want to contribute? Select to donate your time instead! Want to donate to a specific area of the UK? We can help you find the right charity for that area.
+
 Add site responsive screenshot here
 
 Visit the deployed site: [Charity Earth](https://kera-cudmore.github.io/earth-day-hackathon-2022/)
@@ -82,6 +86,8 @@ Visit the deployed site: [Charity Earth](https://kera-cudmore.github.io/earth-da
 
 ### Colour Scheme
 
+We wanted to choose colours that reflected the environment, so we have chosen a variety of greens, blues and browns for our site.
+
 ![Colour Palette](readme/colour-palette.png)
 
 ### Typography
@@ -131,14 +137,6 @@ Wireframes were created for mobile, tablet and desktop using Balsamiq.
 </details>
 
 <details>
-<summary>Contact Page Wireframe</summary>
-<br>
-
-![Contact Page](readme/wireframes/contact-wireframe.png)
-
-</details>
-
-<details>
 <summary>404 Error Page Wireframe</summary>
 <br>
 
@@ -148,13 +146,21 @@ Wireframes were created for mobile, tablet and desktop using Balsamiq.
 
 ### Features
 
-The website is comprised of … pages. They are: an index page,
+The website is comprised of 2 pages, the index page and the 404 page.
+
+The index page is divided into sections, the hero image, the quiz, the information section and the contact section.
+
+The 404 page lets the user know that there has been an error and gives them the option through a choice of buttons to be redirected to the home page, the quiz section, the information section and the contact us section.
 
 * All Pages on the website have:
 
   * A favicon. We have chosen to use an image of the Earth to tie our site in the with Earth Day theme of the hackathon.
 
     ![Favicon](readme/favicon.png)
+
+  * A footer. The footer contains links to the various sections of the site for ease of naviagation.
+
+    ![Footer image](readme/footer.png)
 
 * Future Implementations.
 
@@ -193,13 +199,13 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 [Tiny PNG](https://tinypng.com/) To compress images.
 
-?[Birme](https://www.birme.net/) To resize images and convert to webp format.
-
 [Favicon.io](https://favicon.io/) To create favicon.
 
 [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 
 [Shields.io](https://shields.io/) To add badges to the README
+
+[remove.bg](https://www.remove.bg/) To remove the background from the logo image
 
 - - -
 
@@ -245,6 +251,9 @@ Please view [Testing.md](TESTING.md) for the testing documentation.
 
 ### Media
 
+* [Header Image](https://unsplash.com/photos/0DtcZKzrP6Y) used on the index page and 404 page
+* [Logo Image](https://pxhere.com/en/photo/1093799)
+
 ### Acknowledgments
 
 We would like to thank the following people:
@@ -253,11 +262,11 @@ We would like to thank the following people:
 * Our families for their endless patience as we disappeared for a weekend to code
 * The Code Institute Hackathon team for putting on these wonderful events to allow us to develop our skills within an agile development environment.
 
-Meet team ...:
+Meet team 5 Hackathon Newbies & Me!
 
-[Alaa](https://github.com/Hijazi-alaa)
-[Cillian](https://github.com/Cillian-G)
-[Janelle](https://github.com/JanelleG51)
-[John](https://github.com/johnjmci)
-[Kera](https://github.com/kera-cudmore)
-[Trevor](https://github.com/trevthedev777)
+* [Alaa](https://github.com/Hijazi-alaa)
+* [Cillian](https://github.com/Cillian-G)
+* [Janelle](https://github.com/JanelleG51)
+* [John](https://github.com/johnjmci)
+* [Kera](https://github.com/kera-cudmore)
+* [Trevor](https://github.com/trevthedev777)

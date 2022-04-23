@@ -51,13 +51,6 @@ h2 {
     line-height: 55px;
 }
 
-p {
-    color: #e1aa5f;
-    font-size: 1.5rem;
-    padding-bottom: 1rem;
-
-}
-
 a {
     text-decoration: none;
 }
@@ -300,6 +293,16 @@ footer {
     font-weight: 600;
 }
 
+/*-------------------------------------*/
+/*  404 ERROR PAGE */
+/*-------------------------------------*/
+
+.error-text {
+    color: var(--beige);
+    font-size: 1.25rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
 
 /*-------------------------------------*/
 /* MEDIA QUERIES */

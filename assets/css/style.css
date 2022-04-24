@@ -35,9 +35,8 @@ body {
 /* REUSABLE COMPONENTS */
 /*-------------------------------------*/
 
-h1
- { 
-    letter-spacing: 1px; 
+h1 {
+    letter-spacing: 1px;
     font-size: 3rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -46,7 +45,7 @@ h1
     margin-bottom: 40px;
     word-spacing: 4px;
     line-height: 55px;
-    
+
 }
 
 a {
@@ -55,7 +54,7 @@ a {
 
 section {
     padding: 80px 0;
-    
+
 }
 
 .quiz-section {
@@ -150,7 +149,7 @@ header {
     margin-bottom: 10px;
     height: 45px;
     width: auto;
-    
+
 }
 
 
@@ -192,7 +191,7 @@ header {
     left: 0;
     width: 100%;
     position: fixed;
-    z-index: 9999; 
+    z-index: 9999;
 }
 
 .fixed .main-nav li a:link,
@@ -202,7 +201,7 @@ header {
 }
 
 .fixed .main-nav {
-   margin: 20px;
+    margin: 20px;
 }
 
 .fixed .fixed-logo {
@@ -230,22 +229,13 @@ header {
 /* CONTACT FORM */
 /*-------------------------------------*/
 
+body {
+    background: #fff;
+}
+
 form {
     max-width: 420px;
     margin: 50px auto;
-}
-
-.contact-section {
-    background-color: rgb(242, 238, 238);
-}
-
-.contact-heading {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 30px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #905A39;
 }
 
 .contact-input {
@@ -274,13 +264,13 @@ textarea {
 }
 
 [type="submit"] {
-    width: 25%;
-    background: #0E5150;
-    border-radius: 5px;
+    width: 100%;
+    background: #905a39;
+    border-radius: 200px;
     border: 0;
     cursor: pointer;
-    color: #905A39;
-    font-size: 0.9rem;
+    color: #fff;
+    font-size: 30px;
     letter-spacing: 4px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -290,7 +280,15 @@ textarea {
 }
 
 [type="submit"]:hover {
-    background: #03292C;
+    background: #158673;
+}
+
+.contact-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: #905A39;
 }
 
 /*-------------------------------------*/
@@ -299,7 +297,7 @@ textarea {
 
 footer {
     text-align: center;
-    margin-top: auto;
+    margin-top: 42px;
     overflow: hidden;
     background-color: #158673;
     min-height: 80px;
@@ -326,8 +324,9 @@ footer {
 .footer-links>a,
 .footer-links>a:visited {
     color: #fff;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     text-decoration: none;
+    font-weight: 500;
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
     padding: 8px 0;
@@ -337,8 +336,9 @@ footer {
 .footer-links>a:hover,
 .footer-links>a:active {
     border-bottom: 2px solid var(--beige);
-    font-weight: 600;
 }
+
+
 
 /*-------------------------------------*/
 /*  404 ERROR PAGE */
@@ -449,10 +449,9 @@ footer {
         font-size: 16px;
     }
 
-    h1
-    { 
+    h1 {
         font-size: 1.75rem;
-        margin: 20px 0;   
+        margin: 20px 0;
     }
 
     section {
@@ -467,8 +466,7 @@ footer {
         margin-bottom: 30px;
     }
 
-    .btn
-    {
+    .btn {
         margin: 10px;
     }
 
@@ -483,5 +481,3 @@ footer {
     }
 
 }
-
-

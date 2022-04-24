@@ -56,7 +56,7 @@ e:0
 // is augmented by "+1" after each answer is submitted, moving the quiz to the next stage.
 let stageTracker = 0;
 
-
+let themeAnswer
 
 // called when 'start quiz' button is clicked, sets country variable to answer selected by radio buttons
 function locationSubmit() {
@@ -67,23 +67,21 @@ function locationSubmit() {
         }
     }
     console.log(country);
-    console.log(stageTracker);
     if (verifyRadioCheck()) {
         stageTracker +=1;
-        console.log(stageTracker)
+        console.log(`Stage tracker No:${stageTracker}`)
         // nextStage();
     }
 }
 
 // called when "next" buttons are pressed after each quiz section, adds +1 to scorecard object for matching answer 
 function themeSubmit() {
-    console.log("themeSubmitTest")
     if (verifyRadioCheck()) {
-        if (stageTracker >= 1 && stageTracker < 7) {
-            // addScore();
-        }
+        // if (stageTracker >= 1 && stageTracker < 7) {
+
+        // }
         stageTracker +=1;
-        console.log(stageTracker)
+        console.log(`Stage tracker No:${stageTracker}`)
         // nextStage();
     }
     
@@ -98,7 +96,13 @@ function verifyRadioCheck() {
     let currentForm = document.forms[stageTracker]
     for (i=0; i< currentForm.length; i++){
         if (currentForm[i].checked){
+            if (currentForm[i].value.length === 1) {
+                let score = currentForm[i].value;
+                scorecard[score]++;
+            }
+            console.log(scorecard)
             return true
+            
         }
     }
     console.log(radio-check-verified)
@@ -117,7 +121,8 @@ function nextStage() {
 }
 
 
-// called after a theme-form is filled out
-function addScore() {
+// called after a theme-form is submitted, adjsut scorecard object by +1 accordingly
+// function addScore() {
+//     let currentForm = document.forms[stageTracker]
 
-}
+// }

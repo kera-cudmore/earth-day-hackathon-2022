@@ -25,6 +25,6 @@ $(document).ready(function() {
             icon.removeClass('fa-xmark');
         }
     });
- 
 
+    
 });

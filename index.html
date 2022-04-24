@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Charity Earth - Tell us what you value - The fun way to discover new environmental charities!
+    <meta name="description" content="Charity Earth - Tell us what you value - The fun way to discover new environmental charities!
     Take a short quiz and based on your areas of interest we will suggest a charity that would love a donation from you.">
     <meta name="keywords" content="Earth Day, Earth Day 2022, Environmental Charities, Charity Selector, Quiz">
     <meta name="author" content="5 Hackathon Newbies & Me!">
@@ -16,8 +15,7 @@
     <!-- Social Meta Tags for Facebook, LinkedIn & Google -->
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Charity Earth" />
-    <meta property="og:description"
-        content="Charity Earth - Tell us what you value - The fun way to discover new environmental charities!
+    <meta property="og:description" content="Charity Earth - Tell us what you value - The fun way to discover new environmental charities!
     Take a short quiz and based on your areas of interest we will suggest a charity that would love a donation from you." />
     <meta name="image" property="og:image" content="URL TO IMAGE" />
     <!-- URL of image to be displayed when your site is linked to -->
@@ -74,7 +72,7 @@
     <section id="quiz" class="quiz-section nav-quiz-section">
 
         <div class="row">
-            <div>
+            <div id="quiz-div-0" class="quiz-div">
                 <form id="location-selection-form" action="">
                     <input type="radio" id="scotland" name="location-radio" value="scotland">
                     <label for="scotland">Scotland</label>
@@ -93,6 +91,8 @@
             </div>
             <!-- Quiz Question 1 -->
             <div>
+
+            <div id="quiz-div-1" class="hidden quiz-div">
                 <form id="quiz-form-one" action="">
                     <p>Placeholder text for the first quiz question, a choice between A, B, and C</p>
                     <input type="radio" name="quiz-radio-one" id="qr-one-a" value="a">
@@ -107,8 +107,12 @@
                 </form>
                 <button data-type="button" id="quiz-one-button" class="theme-button">Next<button></button>
             </div>
+
             <!-- Quiz Question 2-->
             <div class="hide">
+
+            <div id="quiz-div-2" class="hidden quiz-div">
+
                 <form id="quiz-form-two" action="">
                     <p>Placeholder text for the second quiz question, a choice between theme C, D, and E</p>
                     <input type="radio" name="quiz-radio-two" id="qr-two-c" value="c">
@@ -123,8 +127,12 @@
                 </form>
                 <button data-type="button" id="quiz-two-button" class="theme-button">Next</button>
             </div>
+
             <!-- Quiz Question 3 -->
             <div class="hide">
+
+            <div id="quiz-div-3" class="hidden quiz-div">
+
                 <form id="quiz-form-three" action="">
                     <p>Placeholder text for the third quiz question, a choice between theme A, B, and E</p>
                     <input type="radio" name="quiz-radio-three" id="qr-three-a" value="a">
@@ -139,8 +147,12 @@
                 </form>
                 <button data-type="button" id="quiz-three-button" class="theme-button">Next</button>
             </div>
+
             <!-- Quiz Question 4 -->
             <div class="hide">
+
+            <div id="quiz-div-4" class="hidden">
+
                 <form id="quiz-form-four" action="">
                     <p>Placeholder text for the fourth quiz question, a choice between theme B, C, and D</p>
                     <input type="radio" name="quiz-radio-four" id="qr-three-b" value="b">
@@ -156,8 +168,12 @@
                 </form>
                 <button data-type="button" id="quiz-four-button" class="theme-button">Next</button>
             </div>
+
             <!-- Quiz Question 5 -->
             <div class="hide">
+
+            <div id="quiz-div-5" class="hidden">
+
                 <form id="quiz-form-five" action="">
                     <p>Placeholder text for the fifth quiz question, a choice between theme A, D, and E</p>
                     <input type="radio" name="quiz-radio-five" id="qr-five-a" value="a">
@@ -175,25 +191,51 @@
                 <button data-type="button" id="quiz-five-button" class="theme-button">Next</button>
             </div>
 
+
             <!-- Tiebreaker Form -->
             <div class="hide">
+
+            <div id="quiz-div-6" class="hidden">
+                <form id="donation-type-form" action="">
+                    <p>Placeholder text for the donation type question, between money and time</p>
+                    <input type="radio" name="donation-type-radio" id="donation-radio-money" value="money">
+                    <label for="donation-radio-money">Choosing this will set the donation type to 'money'</label>
+                    <br>
+                    <input type="radio" name="donation-type-radio" id="donation-radio-time" value="time">
+                    <label for="donation-radio-time">Choosing this will set the donation type to 'time'</label>
+                </form>
+                <button data-type="button" id="donation-type-button" class="donation-button">Next</button>
+            </div>
+            <div id="tiebreaker-div" class="hidden">
+
                 <form id="tiebreaker-form" action="">
                     <p>Placeholder text for the tiebreaker quiz question.</p>
-                    <input type="radio" name="tiebreaker-radio" id="tr-a" value="a">
-                    <label for="tr-a">Choosing this will score for theme A</label>
+                    <div id="tiebreaker-div-a">
+                        <input type="radio" name="tiebreaker-radio" id="tr-a" value="a">
+                        <label for="tr-a">Choosing this will score for theme A</label>
+                    </div>
                     <br>
-                    <input type="radio" name="tiebreaker-radio" id="tr-b" value="b">
-                    <label for="tr-b">Choosing this will score for theme B</label>
+                    <div id="tiebreaker-div-b">
+                        <input type="radio" name="tiebreaker-radio" id="tr-b" value="b">
+                        <label for="tr-b">Choosing this will score for theme B</label>
+                    </div> 
                     <br>
-                    <input type="radio" name="tiebreaker-radio" id="tr-c" value="c">
-                    <label for="tr-c">Choosing this will score for theme C</label>
+                    <div id="tiebreaker-div-c">
+                        <input type="radio" name="tiebreaker-radio" id="tr-c" value="c">
+                        <label for="tr-c">Choosing this will score for theme C</label>
+                    </div>
                     <br>
-                    <input type="radio" name="tiebreaker-radio" id="tr-d" value="d">
-                    <label for="tr-d">Choosing this will score for theme D</label>
+                    <div id="tiebreaker-div-d">
+                        <input type="radio" name="tiebreaker-radio" id="tr-d" value="d">
+                        <label for="tr-d">Choosing this will score for theme D</label>
+                    </div>
                     <br>
-                    <input type="radio" name="tiebreaker-radio" id="tr-e" value="e">
-                    <label for="tr-e">Choosing this will score for theme E</label>
-                    <br> 
+
+                    <div id="tiebreaker-div-e">
+                        <input type="radio" name="tiebreaker-radio" id="tr-e" value="e">
+                        <label for="tr-e">Choosing this will score for theme E</label>
+                    </div>
+                    <br>
                 </form>
                 <button data-type="button" id="tiebreaker-button">Next</button>
             </div>
@@ -213,7 +255,7 @@
                 <h3>Heading</h3>
                 <div class="further-info">
                     <i class=""></i>
-                    Category/Country 
+                    Category/Country
                 </div>
                 <div class="further-info">
                     <i class=""></i>
@@ -229,7 +271,7 @@
                 <h3>Heading</h3>
                 <div class="further-info">
                     <i class=""></i>
-                    Category/Country 
+                    Category/Country
                 </div>
                 <div class="further-info">
                     <i class=""></i>
@@ -245,7 +287,7 @@
                 <h3>Heading</h3>
                 <div class="further-info">
                     <i class=""></i>
-                    Category/Country 
+                    Category/Country
                 </div>
                 <div class="further-info">
                     <i class=""></i>
@@ -261,7 +303,7 @@
                 <h3>Heading</h3>
                 <div class="further-info">
                     <i class=""></i>
-                    Category/Country 
+                    Category/Country
                 </div>
                 <div class="further-info">
                     <i class=""></i>
@@ -280,13 +322,18 @@
     <!-- Contact Form -->
     <section id="contact" class="contact-section" id="contact">
         <form>
+
+    <!--Contact Form-->
+    <section class="contact-section" id="contact">
+        <form onsubmit="return sendMail(this);">
+
             <h3 class="contact-heading">Get In Touch</h3>
             <label for="name"></label>
 
             <input name="name" id="name" type="text" class="contact-input" placeholder="Name" required />
             <label for="email"></label>
             <input name="email" id="email" type="text" class="contact-input" placeholder="Email" required />
-            <textarea name="text" class="contact-input" placeholder="Type your message here" required></textarea>
+            <textarea name="message" class="contact-input" placeholder="Type your message here" required></textarea>
             <input type="submit" value="SEND" />
         </form>
     </section>
@@ -298,7 +345,7 @@
             <h4>Charity Earth Contributors</h4>
         </div>
         <div class="contributors-container">
-            <div class="contributors-item last-item">
+            <div class="contributors-item">
                 <h5>Alaa Hijazi</h5>
                 <a href="https://github.com/Hijazi-alaa" target="blank_"><i class="fa-brands fa-github-square"></i></a>
                 <a href="https://www.linkedin.com/in/alaa-hijazi-1901b2196/" target="blank_"><i class="fa-brands fa-linkedin"></i></a>
@@ -323,7 +370,7 @@
                 <a href="https://github.com/kera-cudmore" target="blank_"><i class="fa-brands fa-github-square"></i></a>
                 <a href="https://www.linkedin.com/in/keracudmore/" target="blank_"><i class="fa-brands fa-linkedin"></i></a>
             </div>
-            <div class="contributors-item">
+            <div class="contributors-item  last-item">
                 <h5>Trevor Lehman</h5>
                 <a href="" target="blank_"><i class="fa-brands fa-github-square"></i></a>
                 <a href="https://www.linkedin.com/in/trevor-lehmann-webdev/" target="blank_"><i class="fa-brands fa-linkedin"></i></a>
@@ -334,6 +381,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="assets/vendor/js/jquery.waypoints.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <!-- EmailJs-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("w3qkNLW9_Pbkzonuw");
+        })();
+    </script>
+    <script src="assets/js/sendEmail.js"></script>
+
 </body>
 
 </html>

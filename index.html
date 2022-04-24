@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Charity Earth - Tell us what you value - The fun way to discover new environmental charities!
+    <meta name="description"
+        content="Charity Earth - Tell us what you value - The fun way to discover new environmental charities!
     Take a short quiz and based on your areas of interest we will suggest a charity that would love a donation from you.">
     <meta name="keywords" content="Earth Day, Earth Day 2022, Environmental Charities, Charity Selector, Quiz">
     <meta name="author" content="5 Hackathon Newbies & Me!">
@@ -15,7 +16,8 @@
     <!-- Social Meta Tags for Facebook, LinkedIn & Google -->
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Charity Earth" />
-    <meta property="og:description" content="Charity Earth - Tell us what you value - The fun way to discover new environmental charities!
+    <meta property="og:description"
+        content="Charity Earth - Tell us what you value - The fun way to discover new environmental charities!
     Take a short quiz and based on your areas of interest we will suggest a charity that would love a donation from you." />
     <meta name="image" property="og:image" content="URL TO IMAGE" />
     <!-- URL of image to be displayed when your site is linked to -->
@@ -58,9 +60,10 @@
         </nav>
         <div class="hero-text">
             <h1>Charity Earth</h1>
-                <p class="site-description">Tell us what you value.<br><br>  
-                    The fun way to discover new environmental charities! <br><br>
-                    Take a short quiz and based on your areas of interest we will suggest a charity that would love a donation from you.</p>
+            <p class="site-description">Tell us what you value.<br><br>
+                The fun way to discover new environmental charities! <br><br>
+                Take a short quiz and based on your areas of interest we will suggest a charity that would love a
+                donation from you.</p>
             <a class="btn btn-full" href="#quiz">Take quiz</a>
             <a class="btn btn-blank" href="#information">Show me more</a>
         </div>
@@ -81,7 +84,7 @@
                     <input type="radio" id="northern-ireland" name="location-radio" value="northern-ireland">
                     <label for="northern-ireland">Northern Ireland</label>
                 </form>
-                <button data-type="button" id="location-selection-button">
+                <button class="start-button" data-type="button" id="location-selection-button">
                     Start the Quiz!
                 </button>
             </div>
@@ -134,6 +137,7 @@
                 <form id="quiz-form-four" action="">
                     <p>Placeholder text for the fourth quiz question, a choice between theme B, C, and D</p>
                     <input type="radio" name="quiz-radio-four" id="qr-three-b" value="b">
+
                     <label for="qr-four-b">Choosing this will score for theme B</label>
                     <br>
                     <input type="radio" name="quiz-radio-four" id="qr-three-c" value="c">
@@ -142,6 +146,7 @@
                     <input type="radio" name="quiz-radio-four" id="qr-three-d" value="d">
                     <label for="qr-four-d">Choosing this will score for theme D</label>
                     <br>
+
                 </form>
                 <button data-type="button" id="quiz-four-button" class="theme-button">Next</button>
             </div>
@@ -149,6 +154,7 @@
                 <form id="quiz-form-five" action="">
                     <p>Placeholder text for the fifth quiz question, a choice between theme A, D, and E</p>
                     <input type="radio" name="quiz-radio-five" id="qr-five-a" value="a">
+
                     <label for="qr-five-a">Choosing this will score for theme A</label>
                     <br>
                     <input type="radio" name="quiz-radio-five" id="qr-five-d" value="d">
@@ -185,19 +191,88 @@
     </section>
 
     <section id="information" class="further-info-section">
+        <div class="row">
+            <h2>Browse other sites of interest</h2>
+        </div>
+        <div class="row js--wp-3">
+            <div class="col span-1-of-4 box">
+                <img src="" alt="Image">
+                <h3>Heading</h3>
+                <div class="further-info">
+                    <i class=""></i>
+                    Category/Country 
+                </div>
+                <div class="further-info">
+                    <i class=""></i>
+                    Site name
+                </div>
+                <div class="further-info">
+                    <i class=""></i>
+                    <a href="#">Find out more</a>
+                </div>
+            </div>
+            <div class="col span-1-of-4 box">
+                <img src="" alt="Image">
+                <h3>Heading</h3>
+                <div class="further-info">
+                    <i class=""></i>
+                    Category/Country 
+                </div>
+                <div class="further-info">
+                    <i class=""></i>
+                    Site name
+                </div>
+                <div class="further-info">
+                    <i class=""></i>
+                    <a href="#">Find out more</a>
+                </div>
+            </div>
+            <div class="col span-1-of-4 box">
+                <img src="" alt="Image">
+                <h3>Heading</h3>
+                <div class="further-info">
+                    <i class=""></i>
+                    Category/Country 
+                </div>
+                <div class="further-info">
+                    <i class=""></i>
+                    Site name
+                </div>
+                <div class="further-info">
+                    <i class=""></i>
+                    <a href="#">Find out more</a>
+                </div>
+            </div>
+            <div class="col span-1-of-4 box">
+                <img src="" alt="Image">
+                <h3>Heading</h3>
+                <div class="further-info">
+                    <i class=""></i>
+                    Category/Country 
+                </div>
+                <div class="further-info">
+                    <i class=""></i>
+                    Site name
+                </div>
+                <div class="further-info">
+                    <i class=""></i>
+                    <a href="#">Find out more</a>
+                </div>
+            </div>
+        </div>
 
     </section>
 
     <section id="contact" class="contact-section" id="contact">
-            <form>
-                <h3 class="contact-heading">Get In Touch</h3>
-                <label for="name"></label>
-                <input name="name" id="name" type="text" class="contact-input" placeholder="Name" />
-                <label for="email"></label>
-                <input name="email" id="email" type="text" class="contact-input" placeholder="Email" />
-                <textarea name="text" class="contact-input" placeholder="Type your message here"></textarea>
-                <input class="btn" type="submit" value="SEND" />
-            </form>
+        <form>
+            <h3 class="contact-heading">Get In Touch</h3>
+            <label for="name"></label>
+            <input name="name" id="name" type="text" class="contact-input" placeholder="Name" />
+            <label for="email"></label>
+            <input name="email" id="email" type="text" class="contact-input" placeholder="Email" />
+            <textarea name="text" class="contact-input" placeholder="Type your message here"></textarea>
+            <input class="btn" type="submit" value="SEND" />
+        </form>
     </section>
 
     <!-- footer -->

@@ -427,6 +427,10 @@ footer {
         font-size: 18px;
     }
 
+    .col {
+        width: 45%;
+    }
+
 }
 
 /* small phones to small tablets: from 481px to 767px */

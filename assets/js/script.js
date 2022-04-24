@@ -104,9 +104,10 @@ function donationTypeSubmit() {
 /**
  *Displays the following question after a question has been answered
  */
-function nextQuetsion(stageTracker) {
+// function nextQuetsion(stageTracker) {
 
-}
+//     for (let i = 0; )
+// }
 
 
 

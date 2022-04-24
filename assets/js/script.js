@@ -25,7 +25,6 @@ $(document).ready(function() {
             icon.removeClass('fa-xmark');
         }
     });
- 
 
 });
 
@@ -134,6 +133,8 @@ function nextStage() {
 
 // called after a theme-form is submitted, adjsut scorecard object by +1 accordingly
 // function addScore() {
-//     let currentForm = document.forms[stageTracker]
+//     let currentForm = document.forms[stageTracker] {
 
-// }
+}
+
+

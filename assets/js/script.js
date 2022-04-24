@@ -166,3 +166,7 @@ function nextStage() {
 //     let currentForm = document.forms[stageTracker] {
 
 })
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 83e179b746757df623879eb894d3d67d68f633c6

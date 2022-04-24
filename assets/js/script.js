@@ -124,18 +124,20 @@ function verifyRadioCheck() {
 //if no tie then proceeds to donation-type quiz question  
 function checkForTie() {
 
-     
-    for (let i = scorecard; i <= scorecard.length; i++) {
-        if (stageTracker <= 6 && scorecard.length == scorecard.length ) {
+    let score = scorecard[value]  
+    let hiddenContent = document.getElementById('tiebreaker-form')  
+    for (let i = scorecard; i <= scorecard.length[score]; i++) {
+        if ((stageTracker <= 6 && scorecard.length[score] == scorecard.length[score])
+            ) {
             alert('We need just a little more information from you, would you ming answering one more Question?');
-            
+            hiddenContent.style.display = 'show'
 
         
     }
     }
 
     
-    
+    checkForTie(score)
 
 } 
 // called after successful verifyRadioCheck, hides previous stage of quiz, shows new stage

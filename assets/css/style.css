@@ -490,6 +490,10 @@ footer {
         margin: 20px 0;
     }
 
+    h5 {
+        font-size: 0.25rem;
+    }
+
     section {
         padding: 40px 0;
     }

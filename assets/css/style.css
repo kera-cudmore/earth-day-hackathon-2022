@@ -498,6 +498,7 @@ footer {
 
 }
 
+<<<<<<< HEAD
 /* small phones: from 480px to 767x */
 @media only screen and (max-width: 767px) {
 
@@ -510,6 +511,9 @@ footer {
 
 
 /* small phones: from 0 to 480px */
+=======
+/* small phones: from 346 to 480px */
+>>>>>>> 61b71b155bb6e61b30953548cafdb794923d62f3
 @media only screen and (max-width: 480px) {
     body {
         font-size: 16px;
@@ -558,4 +562,13 @@ footer {
     .contributors-container {
         margin: 16px;
     }
+}
+
+/* small phones: from 0 to 345px */
+@media only screen and (max-width: 345px) {
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+    font-size: 0.7rem;
+  }
 }

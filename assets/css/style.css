@@ -294,14 +294,19 @@ textarea {
     resize: vertical;
 }
 
+.submit-btn {
+    text-align: center;
+    margin-top: 12px;
+}
+
 [type="submit"] {
-    width: 100%;
+    width: 60%;
     background: #905a39;
     border-radius: 200px;
     border: 0;
     cursor: pointer;
     color: #fff;
-    font-size: 30px;
+    font-size: 20px;
     letter-spacing: 4px;
     padding-top: 10px;
     padding-bottom: 10px;

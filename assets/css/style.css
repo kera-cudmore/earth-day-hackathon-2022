@@ -487,8 +487,7 @@ footer {
 
 }
 
-
-/* small phones: from 0 to 480px */
+/* small phones: from 346 to 480px */
 @media only screen and (max-width: 480px) {
     body {
         font-size: 16px;
@@ -537,4 +536,13 @@ footer {
     .contributors-container {
         margin: 16px;
     }
+}
+
+/* small phones: from 0 to 345px */
+@media only screen and (max-width: 345px) {
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+    font-size: 0.7rem;
+  }
 }

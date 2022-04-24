@@ -72,7 +72,7 @@
     <section id="quiz" class="quiz-section nav-quiz-section">
 
         <div class="row">
-            <div>
+            <div id="quiz-div-0" class="quiz-div">
                 <form id="location-selection-form" action="">
                     <input type="radio" id="scotland" name="location-radio" value="scotland">
                     <label for="scotland">Scotland</label>
@@ -89,8 +89,12 @@
                     Start the Quiz!
                 </button>
             </div>
+<<<<<<< HEAD
             <!-- Quiz Question 1 -->
             <div>
+=======
+            <div id="quiz-div-1" class="hidden quiz-div">
+>>>>>>> 902f7ef6ad6137bf4eeb601123dd37ec18348bcd
                 <form id="quiz-form-one" action="">
                     <p>Placeholder text for the first quiz question, a choice between A, B, and C</p>
                     <input type="radio" name="quiz-radio-one" id="qr-one-a" value="a">
@@ -105,8 +109,12 @@
                 </form>
                 <button data-type="button" id="quiz-one-button" class="theme-button">Next<button></button>
             </div>
+<<<<<<< HEAD
             <!-- Quiz Question 2-->
             <div class="hide">
+=======
+            <div id="quiz-div-2" class="hidden quiz-div">
+>>>>>>> 902f7ef6ad6137bf4eeb601123dd37ec18348bcd
                 <form id="quiz-form-two" action="">
                     <p>Placeholder text for the second quiz question, a choice between theme C, D, and E</p>
                     <input type="radio" name="quiz-radio-two" id="qr-two-c" value="c">
@@ -177,20 +185,31 @@
             <div >
                 <form id="tiebreaker-form" action="">
                     <p>Placeholder text for the tiebreaker quiz question.</p>
-                    <input type="radio" name="tiebreaker-radio" id="tr-a" value="a">
-                    <label for="tr-a">Choosing this will score for theme A</label>
+                    <div id="tiebreaker-div-a">
+                        <input type="radio" name="tiebreaker-radio" id="tr-a" value="a">
+                        <label for="tr-a">Choosing this will score for theme A</label>
+                    </div>
                     <br>
-                    <input type="radio" name="tiebreaker-radio" id="tr-b" value="b">
-                    <label for="tr-b">Choosing this will score for theme B</label>
+                    <div id="tiebreaker-div-b">
+                        <input type="radio" name="tiebreaker-radio" id="tr-b" value="b">
+                        <label for="tr-b">Choosing this will score for theme B</label>
+                    </div> 
                     <br>
-                    <input type="radio" name="tiebreaker-radio" id="tr-c" value="c">
-                    <label for="tr-c">Choosing this will score for theme C</label>
+                    <div id="tiebreaker-div-c">
+                        <input type="radio" name="tiebreaker-radio" id="tr-c" value="c">
+                        <label for="tr-c">Choosing this will score for theme C</label>
+                    </div>
                     <br>
-                    <input type="radio" name="tiebreaker-radio" id="tr-d" value="d">
-                    <label for="tr-d">Choosing this will score for theme D</label>
+                    <div id="tiebreaker-div-d">
+                        <input type="radio" name="tiebreaker-radio" id="tr-d" value="d">
+                        <label for="tr-d">Choosing this will score for theme D</label>
+                    </div>
                     <br>
-                    <input type="radio" name="tiebreaker-radio" id="tr-e" value="e">
-                    <label for="tr-e">Choosing this will score for theme E</label>
+
+                    <div id="tiebreaker-div-e">
+                        <input type="radio" name="tiebreaker-radio" id="tr-e" value="e">
+                        <label for="tr-e">Choosing this will score for theme E</label>
+                    </div>
                     <br>
                 </form>
                 <button data-type="button" id="tiebreaker-button">Next</button>
@@ -285,7 +304,9 @@
             <label for="email"></label>
             <input name="email" id="email" type="text" class="contact-input" placeholder="Email" required />
             <textarea name="message" class="contact-input" placeholder="Type your message here" required></textarea>
-            <input type="submit" value="SEND" />
+            <div class="submit-btn">
+                <input type="submit" value="SEND" />
+            </div>
         </form>
     </section>
 
@@ -321,7 +342,7 @@
                 <a href="https://github.com/kera-cudmore" target="blank_"><i class="fa-brands fa-github-square"></i></a>
                 <a href="https://www.linkedin.com/in/keracudmore/" target="blank_"><i class="fa-brands fa-linkedin"></i></a>
             </div>
-            <div class="contributors-item  last-item">
+            <div class="contributors-item">
                 <h5>Trevor Lehman</h5>
                 <a href="" target="blank_"><i class="fa-brands fa-github-square"></i></a>
                 <a href="https://www.linkedin.com/in/trevor-lehmann-webdev/" target="blank_"><i class="fa-brands fa-linkedin"></i></a>

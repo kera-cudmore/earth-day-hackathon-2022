@@ -88,20 +88,33 @@ function themeSubmit() {
 
 //called when users click to submit an answer for the donation type question.
 function donationTypeSubmit() {
-    let donationTypeSelector = document.forms[6]
+
+    let donationTypeSelector = document.forms[6];
     for (i=0; i< donationTypeSelector.length; i++){
         if (donationTypeSelector[i].checked){
             donationType = donationTypeSelector[i].value;
             console.log(donationType)
         }
-    }
+    };
     stageTracker +=1;
-    console.log(`Stage tracker No:${stageTracker}`)
+    console.log(`Stage tracker No:${stageTracker}`);
 }
 
 
-// called whenever answers are submitted to verify that a radio button has been checked for the current section.
-// if it has, stageTracker is augmented by 1 and next stage is called, if not User is given an alert to check an answer
+/**
+ *Displays the following question after a question has been answered
+ */
+function nextQuetsion(stageTracker) {
+
+}
+
+
+
+/**
+ * called whenever answers are submitted to verify that a radio button has been checked for the current section.
+if it has, stageTracker is augmented by 1 and next stage is called, if not User is given an alert to check an answer
+ */
+
 function verifyRadioCheck() {
     let currentForm = document.forms[stageTracker]
     for (i=0; i< currentForm.length; i++){
@@ -120,23 +133,24 @@ function verifyRadioCheck() {
 }
 
 
-// if stage counter would move to 6, looks for a tie in the scorecard results, if there is a tie then tiebreaker stage is started  
-//if no tie then proceeds to donation-type quiz question  
-function checkForTie() {
+
+/**
+ * if stage counter would move to 6, looks for a tie in the scorecard results, if there is a tie then tiebreaker stage is started
+ * if no tie then proceeds to donation-type quiz question   */   
+
+function checkForTie(value) {
 
     let score = scorecard[value]  
-    let hiddenContent = document.getElementById('tiebreaker-form')  
+    let hiddenContent = document.getElementById('tiebreaker-form');
     for (let i = scorecard; i <= scorecard.length[score]; i++) {
         if ((stageTracker <= 6 && scorecard.length[score] == scorecard.length[score])
             ) {
             alert('We need just a little more information from you, would you ming answering one more Question?');
-            hiddenContent.style.display = 'show'
-
-        
+            hiddenContent.style.display = 'show';
     }
-    }
-
+}
     
+
     checkForTie(score)
 
 } 

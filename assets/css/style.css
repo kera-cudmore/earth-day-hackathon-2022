@@ -350,18 +350,15 @@ footer {
 }
 
 .contributors-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
     margin: 36px 0 36px;
 }
 
 .contributors-item {
     color: #fff;
-    border-right: groove 0.5px #fff;
-}
-
-.last-item {
-    border: none;
 }
 
 .contributors-item>h5 {
@@ -483,6 +480,7 @@ footer {
     }
 
 }
+
 
 /* small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {

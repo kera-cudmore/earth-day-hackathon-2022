@@ -69,7 +69,7 @@ function locationSubmit() {
     if (verifyRadioCheck()) {
         stageTracker +=1;
         console.log(`Stage tracker No:${stageTracker}`)
-        // nextStage();
+        nextStage();
     }
 }
 
@@ -81,22 +81,25 @@ function themeSubmit() {
         // }
         stageTracker +=1;
         console.log(`Stage tracker No:${stageTracker}`)
-        // nextStage();
+        nextStage();
     }
 
 }
 
 //called when users click to submit an answer for the donation type question.
 function donationTypeSubmit() {
-    let donationTypeSelector = document.forms[6]
-    for (i=0; i< donationTypeSelector.length; i++){
-        if (donationTypeSelector[i].checked){
-            donationType = donationTypeSelector[i].value;
-            console.log(donationType)
+    if (verifyRadioCheck) {
+        let donationTypeSelector = document.forms[6]
+        for (i=0; i< donationTypeSelector.length; i++){
+            if (donationTypeSelector[i].checked){
+                donationType = donationTypeSelector[i].value;
+                console.log(donationType);
+            }
         }
-    }
     stageTracker +=1;
     console.log(`Stage tracker No:${stageTracker}`)
+    //Tiebreaker check
+    }
 }
 
 
@@ -111,8 +114,7 @@ function verifyRadioCheck() {
                 scorecard[score]++;
             }
             console.log(scorecard)
-            return true
-            
+            return true   
         }
     }
     console.log(radio-check-verified)
@@ -125,15 +127,15 @@ function verifyRadioCheck() {
 function checkForTie() {
 
 } 
+
+
 // called after successful verifyRadioCheck, hides previous stage of quiz, shows new stage
 function nextStage() {
-
+    let previousStage = stageTracker - 1;
+    console.log(previousStage)
+    console.log(stageTracker)
+    document.getElementById(`quiz-div-${stageTracker}`).removeAttribute("class");
+    document.getElementById(`quiz-div-${previousStage}`).setAttribute("class","hidden");
 }
-
-
-// called after a theme-form is submitted, adjsut scorecard object by +1 accordingly
-// function addScore() {
-//     let currentForm = document.forms[stageTracker] {
-
 
 

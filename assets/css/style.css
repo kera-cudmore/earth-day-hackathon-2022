@@ -199,7 +199,7 @@ header {
 /*----FIXED NAV----*/
 
 .fixed {
-    background-color: #905a39e1;
+    background-color: var(--teal);
     top: 0;
     left: 0;
     width: 100%;
@@ -487,7 +487,7 @@ footer {
 
 }
 
-/* small phones: from 346 to 480px */
+/* small phones: from 376 to 480px */
 @media only screen and (max-width: 480px) {
     body {
         font-size: 16px;
@@ -495,7 +495,7 @@ footer {
 
     h1 {
         font-size: 1.75rem;
-        margin: 20px 0;
+        margin-top: 20px 0;
     }
 
     h5 {
@@ -510,17 +510,23 @@ footer {
         padding: 0 25px;
     }
 
-    .site-description {
-        margin-bottom: 30px;
-    }
-
     .btn {
         margin: 10px;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+    font-size: 0.75rem;
     }
 
     .logo {
         height: 50px;
         margin-top: 25px;
+    }
+
+    .site-description {
+        font-size: 0.9rem;
+        margin-bottom: 30px;
     }
 
     form {
@@ -538,11 +544,23 @@ footer {
     }
 }
 
-/* small phones: from 0 to 345px */
-@media only screen and (max-width: 345px) {
+/* small phones: from 0 to 375px */
+@media only screen and (max-width: 376px) {
+
+    h1 {
+        font-size: 1.5rem;
+        margin-top: 100px;
+    }
 
     .main-nav li a:link,
     .main-nav li a:visited {
     font-size: 0.7rem;
-  }
+    }
+
+    .site-description {
+        font-size: .75rem;
+        margin-bottom: 30px;
+    }
+
+    
 }

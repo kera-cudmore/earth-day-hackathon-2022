@@ -25,7 +25,6 @@ $(document).ready(function() {
             icon.removeClass('fa-xmark');
         }
     });
- 
 
 });
 
@@ -138,4 +137,5 @@ function nextStage() {
     document.getElementById(`quiz-div-${stageTracker}`).removeAttribute("class");
     document.getElementById(`quiz-div-${previousStage}`).setAttribute("class","hidden");
 }
+
 

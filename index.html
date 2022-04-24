@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Charity Earth - Tell us what you value - The fun way to discover new environmental charities!
+    <meta name="description" content="Charity Earth - Tell us what you value - The fun way to discover new environmental charities!
     Take a short quiz and based on your areas of interest we will suggest a charity that would love a donation from you.">
     <meta name="keywords" content="Earth Day, Earth Day 2022, Environmental Charities, Charity Selector, Quiz">
     <meta name="author" content="5 Hackathon Newbies & Me!">
@@ -16,8 +15,7 @@
     <!-- Social Meta Tags for Facebook, LinkedIn & Google -->
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Charity Earth" />
-    <meta property="og:description"
-        content="Charity Earth - Tell us what you value - The fun way to discover new environmental charities!
+    <meta property="og:description" content="Charity Earth - Tell us what you value - The fun way to discover new environmental charities!
     Take a short quiz and based on your areas of interest we will suggest a charity that would love a donation from you." />
     <meta name="image" property="og:image" content="URL TO IMAGE" />
     <!-- URL of image to be displayed when your site is linked to -->
@@ -62,6 +60,7 @@
             <h1>Charity Earth</h1>
             <p class="site-description">Tell us what you value.<br><br>
                 The fun way to discover new environmental charities! <br><br>
+
                 Take a short quiz and based on your areas of interest we will suggest a charity that would love a
                 donation from you.</p>
             <a class="btn btn-full" href="#quiz">Take quiz</a>
@@ -146,7 +145,6 @@
                     <input type="radio" name="quiz-radio-four" id="qr-three-d" value="d">
                     <label for="qr-four-d">Choosing this will score for theme D</label>
                     <br>
-
                 </form>
                 <button data-type="button" id="quiz-four-button" class="theme-button">Next</button>
             </div>
@@ -163,6 +161,7 @@
                     <input type="radio" name="quiz-radio-five" id="qr-five-e" value="e">
                     <label for="qr-five-e">Choosing this will score for theme E</label>
                     <br>
+
                 </form>
                 <button data-type="button" id="quiz-five-button" class="theme-button">Next</button>
             </div>
@@ -200,11 +199,12 @@
                         <label for="tr-d">Choosing this will score for theme D</label>
                     </div>
                     <br>
+
                     <div id="tiebreaker-div-e">
                         <input type="radio" name="tiebreaker-radio" id="tr-e" value="e">
                         <label for="tr-e">Choosing this will score for theme E</label>
                     </div>
-                    <br> 
+                    <br>
                 </form>
                 <button data-type="button" id="tiebreaker-button">Next</button>
             </div>
@@ -217,11 +217,11 @@
         </div>
         <div class="row js--wp-3">
             <div class="col span-1-of-4 box">
-                <img src="" alt="Image">
+                <img src="assets/images/additional-1.jpg" alt="Image">
                 <h3>Heading</h3>
                 <div class="further-info">
                     <i class=""></i>
-                    Category/Country 
+                    Category/Country
                 </div>
                 <div class="further-info">
                     <i class=""></i>
@@ -233,11 +233,11 @@
                 </div>
             </div>
             <div class="col span-1-of-4 box">
-                <img src="" alt="Image">
+                <img src="assets/images/additional-2.jpg" alt="Image">
                 <h3>Heading</h3>
                 <div class="further-info">
                     <i class=""></i>
-                    Category/Country 
+                    Category/Country
                 </div>
                 <div class="further-info">
                     <i class=""></i>
@@ -249,11 +249,11 @@
                 </div>
             </div>
             <div class="col span-1-of-4 box">
-                <img src="" alt="Image">
+                <img src="assets/images/additional-3.jpg" alt="Image">
                 <h3>Heading</h3>
                 <div class="further-info">
                     <i class=""></i>
-                    Category/Country 
+                    Category/Country
                 </div>
                 <div class="further-info">
                     <i class=""></i>
@@ -265,11 +265,11 @@
                 </div>
             </div>
             <div class="col span-1-of-4 box">
-                <img src="" alt="Image">
+                <img src="assets/images/additional-4.jpg" alt="Image">
                 <h3>Heading</h3>
                 <div class="further-info">
                     <i class=""></i>
-                    Category/Country 
+                    Category/Country
                 </div>
                 <div class="further-info">
                     <i class=""></i>
@@ -283,33 +283,73 @@
         </div>
 
     </section>
-
-    <section id="contact" class="contact-section" id="contact">
-        <form>
+    <!--Contact Form-->
+    <section class="contact-section" id="contact">
+        <form onsubmit="return sendMail(this);">
             <h3 class="contact-heading">Get In Touch</h3>
             <label for="name"></label>
-            <input name="name" id="name" type="text" class="contact-input" placeholder="Name" />
+
+            <input name="name" id="name" type="text" class="contact-input" placeholder="Name" required />
             <label for="email"></label>
-            <input name="email" id="email" type="text" class="contact-input" placeholder="Email" />
-            <textarea name="text" class="contact-input" placeholder="Type your message here"></textarea>
-            <input class="btn" type="submit" value="SEND" />
+            <input name="email" id="email" type="text" class="contact-input" placeholder="Email" required />
+            <textarea name="message" class="contact-input" placeholder="Type your message here" required></textarea>
+            <input type="submit" value="SEND" />
         </form>
     </section>
+
 
     <!-- footer -->
     <footer>
         <div class="row footer-row">
-            <ul class="footer-list">
-                <li class="footer-links"><a href="index.html">Home</a></li>
-                <li class="footer-links"><a href="#quiz">Quiz</a></li>
-                <li class="footer-links"><a href="#information">Information</a></li>
-                <li class="footer-links"><a href="#contact">Contact Us</a></li>
-            </ul>
+            <h4>Charity Earth Contributors</h4>
         </div>
+        <div class="contributors-container">
+            <div class="contributors-item">
+                <h5>Alaa Hijazi</h5>
+                <a href="https://github.com/Hijazi-alaa" target="blank_"><i class="fa-brands fa-github-square"></i></a>
+                <a href="https://www.linkedin.com/in/alaa-hijazi-1901b2196/" target="blank_"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="contributors-item">
+                <h5>Cillian Goan</h5>
+                <a href="https://github.com/Cillian-G" target="blank_"><i class="fa-brands fa-github-square"></i></a>
+                <a href="https://www.linkedin.com/in/cillian-goan-65b100203/" target="blank_"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="contributors-item">
+                <h5>Janelle Macmillan</h5>
+                <a href="https://github.com/JanelleG51" target="blank_"><i class="fa-brands fa-github-square"></i></a>
+                <a href="https://www.linkedin.com/in/janelle-macmillan-b0482a207/" target="blank_"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="contributors-item">
+                <h5>John Mclvor</h5>
+                <a href="" target="blank_"><i class="fa-brands fa-github-square"></i></a>
+                <a href="" target="blank_"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="contributors-item">
+                <h5>Kera Cudmore</h5>
+                <a href="https://github.com/kera-cudmore" target="blank_"><i class="fa-brands fa-github-square"></i></a>
+                <a href="https://www.linkedin.com/in/keracudmore/" target="blank_"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="contributors-item  last-item">
+                <h5>Trevor Lehman</h5>
+                <a href="" target="blank_"><i class="fa-brands fa-github-square"></i></a>
+                <a href="https://www.linkedin.com/in/trevor-lehmann-webdev/" target="blank_"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="assets/vendor/js/jquery.waypoints.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <!-- EmailJs-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("w3qkNLW9_Pbkzonuw");
+        })();
+    </script>
+    <script src="assets/js/sendEmail.js"></script>
+
 </body>
 
 </html>

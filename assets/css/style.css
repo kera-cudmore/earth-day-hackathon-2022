@@ -35,9 +35,8 @@ body {
 /* REUSABLE COMPONENTS */
 /*-------------------------------------*/
 
-h1
- { 
-    letter-spacing: 1px; 
+h1 {
+    letter-spacing: 1px;
     font-size: 3rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -46,7 +45,7 @@ h1
     margin-bottom: 40px;
     word-spacing: 4px;
     line-height: 55px;
-    
+
 }
 
 h2 {
@@ -63,7 +62,7 @@ a {
 
 section {
     padding: 80px 0;
-    
+
 }
 
 .quiz-section {
@@ -163,7 +162,7 @@ header {
     margin-bottom: 10px;
     height: 45px;
     width: auto;
-    
+
 }
 
 
@@ -205,7 +204,7 @@ header {
     left: 0;
     width: 100%;
     position: fixed;
-    z-index: 9999; 
+    z-index: 9999;
 }
 
 .fixed .main-nav li a:link,
@@ -215,7 +214,7 @@ header {
 }
 
 .fixed .main-nav {
-   margin: 20px;
+    margin: 20px;
 }
 
 .fixed .fixed-logo {
@@ -261,22 +260,13 @@ header {
 /* CONTACT FORM */
 /*-------------------------------------*/
 
+body {
+    background: #fff;
+}
+
 form {
     max-width: 420px;
     margin: 50px auto;
-}
-
-.contact-section {
-    background-color: rgb(242, 238, 238);
-}
-
-.contact-heading {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 30px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #905A39;
 }
 
 .contact-input {
@@ -305,13 +295,13 @@ textarea {
 }
 
 [type="submit"] {
-    width: 25%;
-    background: #0E5150;
-    border-radius: 5px;
+    width: 100%;
+    background: #905a39;
+    border-radius: 200px;
     border: 0;
     cursor: pointer;
-    color: #905A39;
-    font-size: 0.9rem;
+    color: #fff;
+    font-size: 30px;
     letter-spacing: 4px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -321,7 +311,15 @@ textarea {
 }
 
 [type="submit"]:hover {
-    background: #03292C;
+    background: #158673;
+}
+
+.contact-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: #905A39;
 }
 
 /*-------------------------------------*/
@@ -336,46 +334,53 @@ textarea {
 
 footer {
     text-align: center;
-    margin-top: auto;
+    margin-top: 42px;
     overflow: hidden;
-    background-color: #158673;
-    min-height: 80px;
+    background-color: #905A39;
+    min-height: auto;
 }
 
 
 .footer-row {
-    margin-top: 6px;
+    margin-top: 30px;
 }
 
-
-.footer-list {
-    list-style: none;
-    margin-bottom: 1.5rem;
-    display: inline;
-    text-decoration: none;
-}
-
-.footer-links {
-    display: inline;
-    padding: 12px;
-}
-
-.footer-links>a,
-.footer-links>a:visited {
+.footer-row>h4 {
     color: #fff;
-    font-size: 0.9rem;
-    text-decoration: none;
     text-transform: uppercase;
-    border-bottom: 2px solid transparent;
-    padding: 8px 0;
-    transition: border-bottom 0.2s;
 }
 
-.footer-links>a:hover,
-.footer-links>a:active {
-    border-bottom: 2px solid var(--beige);
-    font-weight: 600;
+.contributors-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin: 36px 0 36px;
 }
+
+.contributors-item {
+    color: #fff;
+    border-right: groove 0.5px #fff;
+}
+
+.last-item {
+    border: none;
+}
+
+.contributors-item>h5 {
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+.contributors-item>a {
+    margin: 5px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.contributors-item>a:hover,
+.contributors-item>a:active {
+    border-bottom: 2px solid var(--beige);
+}
+
 
 /*-------------------------------------*/
 /*  404 ERROR PAGE */
@@ -486,10 +491,13 @@ footer {
         font-size: 16px;
     }
 
-    h1
-    { 
+    h1 {
         font-size: 1.75rem;
-        margin: 20px 0;   
+        margin: 20px 0;
+    }
+
+    h5 {
+        font-size: 0.25rem;
     }
 
     section {
@@ -504,8 +512,7 @@ footer {
         margin-bottom: 30px;
     }
 
-    .btn
-    {
+    .btn {
         margin: 10px;
     }
 
@@ -519,6 +526,12 @@ footer {
         margin-right: 12%;
     }
 
+    .contributors-item {
+        font-size: 8px;
+        border: none;
+    }
+
+    .contributors-container {
+        margin: 16px;
+    }
 }
-
-

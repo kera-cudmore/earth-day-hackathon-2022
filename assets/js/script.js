@@ -70,7 +70,7 @@ function locationSubmit() {
     if (verifyRadioCheck()) {
         stageTracker +=1;
         console.log(`Stage tracker No:${stageTracker}`)
-        // nextStage();
+        nextStage();
     }
 }
 
@@ -82,7 +82,7 @@ function themeSubmit() {
         // }
         stageTracker +=1;
         console.log(`Stage tracker No:${stageTracker}`)
-        // nextStage();
+        nextStage();
     }
 
 }
@@ -99,6 +99,7 @@ function donationTypeSubmit() {
         }
     stageTracker +=1;
     console.log(`Stage tracker No:${stageTracker}`)
+    //Tiebreaker check
     }
 }
 
@@ -127,14 +128,14 @@ function verifyRadioCheck() {
 function checkForTie() {
 
 } 
+
+
 // called after successful verifyRadioCheck, hides previous stage of quiz, shows new stage
 function nextStage() {
-
+    let previousStage = stageTracker - 1;
+    console.log(previousStage)
+    console.log(stageTracker)
+    document.getElementById(`quiz-div-${stageTracker}`).removeAttribute("class");
+    document.getElementById(`quiz-div-${previousStage}`).setAttribute("class","hidden");
 }
 
-
-// called after a theme-form is submitted, adjsut scorecard object by +1 accordingly
-// function addScore() {
-//     let currentForm = document.forms[stageTracker]
-
-// }

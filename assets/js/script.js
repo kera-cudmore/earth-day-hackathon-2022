@@ -124,10 +124,17 @@ function verifyRadioCheck() {
 //if no tie then proceeds to donation-type quiz question  
 function checkForTie() {
 
-    if(stageTracker <= 6) {
+     
+    for (let i = scorecard; i <= scorecard.length; i++) {
+        if (stageTracker <= 6 && scorecard.length == scorecard.length ) {
+            alert('We need just a little more information from you, would you ming answering one more Question?');
+            
 
         
     }
+    }
+
+    
     
 
 } 

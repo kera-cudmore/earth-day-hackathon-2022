@@ -34,6 +34,12 @@ $(document).ready(function() {
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("location-selection-button").addEventListener("click", locationSubmit);
 
+    document.getElementById("quiz-one-button").addEventListener("click", themeSubmit);
+    document.getElementById("quiz-two-button").addEventListener("click", themeSubmit);
+    document.getElementById("quiz-three-button").addEventListener("click", themeSubmit);
+    document.getElementById("quiz-four-button").addEventListener("click", themeSubmit);
+    document.getElementById("quiz-five-button").addEventListener("click", themeSubmit);
+
 })
 
 //variable set by country selection question, will be used to generate final results
@@ -48,10 +54,10 @@ d:0,
 e:0 
 }
 
+
 // stageTrackerkeeps count of the "stage" of the quiz. 0 is location question, 1 is the first quiz question, 2 is second quiz question etc.
 // is augmented by "+1" after each answer is submitted, moving the quiz to the next stage.
 let stageTracker = 0
-
 
 
 // called when 'start quiz' button is clicked, sets country variable to answer selected by radio buttons
@@ -62,15 +68,27 @@ function locationSubmit() {
             country = locationSelector[i].value;
         }
     }
-    //verifyRadioCheck();
+
     console.log(country);
+    if (verifyRadioCheck()) {
+        stageTracker +=1;
+        console.log(`Stage tracker No:${stageTracker}`)
+        // nextStage();
+    }
+
 }
 
 // called when "next" buttons are pressed after each quiz section, adds +1 to scorecard object for matching answer 
 function themeSubmit() {
 
+    if (verifyRadioCheck()) {
+        // if (stageTracker >= 1 && stageTracker < 7) {
 
-
+        // }
+        stageTracker +=1;
+        console.log(`Stage tracker No:${stageTracker}`)
+        // nextStage();
+    }
 }
 
 
@@ -78,7 +96,20 @@ function themeSubmit() {
 // if it has, stageTracker is augmented by 1 and next stage is called, if not User is given an alert to check an answer
 function verifyRadioCheck() {
 
-    
+    let currentForm = document.forms[stageTracker]
+    for (i=0; i< currentForm.length; i++){
+        if (currentForm[i].checked){
+            if (currentForm[i].value.length === 1) {
+                let score = currentForm[i].value;
+                scorecard[score]++;
+            }
+            console.log(scorecard)
+            return true
+            
+        }
+    }
+    console.log(radio-check-verified)
+
     //checkForTie();
 }
 
@@ -88,3 +119,16 @@ function verifyRadioCheck() {
 function checkForTie() {
 
 } 
+// called after successful verifyRadioCheck, hides previous stage of quiz, shows new stage
+function nextStage() {
+
+}
+
+
+// called after a theme-form is submitted, adjsut scorecard object by +1 accordingly
+// function addScore() {
+//     let currentForm = document.forms[stageTracker]
+
+//}
+
+

@@ -116,6 +116,10 @@ function verifyRadioCheck() {
 //if no tie then proceeds to donation-type quiz question  
 function checkForTie() {
 
+    if(stageTracker <= 6) {
+
+        
+    }
     
 
 } 
@@ -132,4 +136,5 @@ function nextStage() {
 //}
 
 
-
+}
+);

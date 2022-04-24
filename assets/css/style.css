@@ -48,6 +48,14 @@ h1 {
 
 }
 
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
 a {
     text-decoration: none;
 }
@@ -67,6 +75,11 @@ section {
 }
 
 /* -----BUTTONS------ */
+
+button {
+    margin: auto;
+    display: block;
+}
 
 .btn:link,
 .btn:visited {
@@ -222,6 +235,24 @@ header {
 .mobile-icon i {
     color: #fff;
     font-size: 1.5rem;
+}
+
+/*-------------------------------------*/
+/* INFORMATION */
+/*-------------------------------------*/
+
+.box {
+    padding: 1%;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.further-info {
+    margin-bottom: 5px;
 }
 
 

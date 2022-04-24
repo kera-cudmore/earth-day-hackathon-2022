@@ -146,10 +146,10 @@ function checkForTie(value) {
     for (let i = scorecard; i <= scorecard.length[score]; i++) {
         if ((stageTracker <= 6 && scorecard.length[score] == scorecard.length[score])
             ) {
-            alert('We need just a little more information from you, would you ming answering one more Question?');
+            alert('We need just a little more information from you, would you mind answering one more Question?');
             hiddenContent.style.display = 'show';
     } else {
-        
+
     }
 }
     

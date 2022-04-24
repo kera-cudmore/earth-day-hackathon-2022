@@ -52,6 +52,9 @@ d:0,
 e:0 
 }
 
+// PLACEHOLDER THEME
+let theme = "climatechange" 
+
 // stageTracker keeps count of the "stage" of the quiz. 0 is location question, 1 is the first quiz question, 2 is second quiz question etc.
 // is augmented by "+1" after each answer is submitted, moving the quiz to the next stage.
 let stageTracker = 0;
@@ -75,10 +78,7 @@ function locationSubmit() {
 
 // called when "next" buttons are pressed after each quiz section, adds +1 to scorecard object for matching answer 
 function themeSubmit() {
-    if (verifyRadioCheck()) {
-        // if (stageTracker >= 1 && stageTracker < 7) {
-
-        // }
+    if (verifyRadioCheck) {
         stageTracker +=1;
         console.log(`Stage tracker No:${stageTracker}`)
         nextStage();
@@ -88,7 +88,7 @@ function themeSubmit() {
 
 //called when users click to submit an answer for the donation type question.
 function donationTypeSubmit() {
-    if (verifyRadioCheck) {
+    if (verifyRadioCheck()) {
         let donationTypeSelector = document.forms[6]
         for (i=0; i< donationTypeSelector.length; i++){
             if (donationTypeSelector[i].checked){
@@ -96,9 +96,16 @@ function donationTypeSubmit() {
                 console.log(donationType);
             }
         }
-    stageTracker +=1;
-    console.log(`Stage tracker No:${stageTracker}`)
-    //Tiebreaker check
+        stageTracker +=1;
+        console.log(`Stage tracker No:${stageTracker}`)
+        generateUrl(); //REMOVE THIS LATER
+        if (checkForTie() === true){
+            //need function to hide/unhide appropriate tiebreaker questions
+            nextStage() 
+        } else {
+            document.getElementById("quiz-div-6").setAttribute("class","hidden");
+            generateUrl();
+        }
     }
 }
 
@@ -118,14 +125,13 @@ function verifyRadioCheck() {
         }
     }
     console.log(radio-check-verified)
-    //checkForTie(); DISREGARD
 }
 
 
 // if stage counter would move to 6, looks for a tie in the scorecard results, if there is a tie then tiebreaker stage is started  
-//if no tie then proceeds to donation-type quiz question  
+//if no tie then proceeds to offer user a link to their charity reccomendation
 function checkForTie() {
-
+        return true
 } 
 
 
@@ -136,6 +142,13 @@ function nextStage() {
     console.log(stageTracker)
     document.getElementById(`quiz-div-${stageTracker}`).removeAttribute("class");
     document.getElementById(`quiz-div-${previousStage}`).setAttribute("class","hidden");
+}
+
+function generateUrl() {
+    document.getElementById("results-link")
+    document.getElementById("results-link").href = `https://kera-cudmore.github.io/earth-day-hackathon-2022/${theme}/#${country}-${donationType}`
+    document.getElementById("results-link").removeAttribute("class");
+    document.getElementById("results-link").textContent = `https://kera-cudmore.github.io/earth-day-hackathon-2022/${theme}/#${country}-${donationType}`
 }
 
 

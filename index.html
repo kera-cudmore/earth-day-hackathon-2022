@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Charity Earth - Tell us what you value - The fun way to discover new environmental charities!
+    <meta name="description"
+        content="Charity Earth - Tell us what you value - The fun way to discover new environmental charities!
     Take a short quiz and based on your areas of interest we will suggest a charity that would love a donation from you.">
     <meta name="keywords" content="Earth Day, Earth Day 2022, Environmental Charities, Charity Selector, Quiz">
     <meta name="author" content="5 Hackathon Newbies & Me!">
@@ -15,7 +16,8 @@
     <!-- Social Meta Tags for Facebook, LinkedIn & Google -->
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Charity Earth" />
-    <meta property="og:description" content="Charity Earth - Tell us what you value - The fun way to discover new environmental charities!
+    <meta property="og:description"
+        content="Charity Earth - Tell us what you value - The fun way to discover new environmental charities!
     Take a short quiz and based on your areas of interest we will suggest a charity that would love a donation from you." />
     <meta name="image" property="og:image" content="URL TO IMAGE" />
     <!-- URL of image to be displayed when your site is linked to -->
@@ -44,10 +46,8 @@
     <header>
         <nav>
             <div class="row">
-                <img src="assets/images/logo.png" class="logo" alt="Charity Earth logo">
-                <img src="assets/images/logo.png" class="fixed-logo" alt="Charity Earth logo">
-                <!--<a class="logo" href="index.html"><h1 >Charity Earth</h1></a>
-                <a class="fixed-logo" href="#"><h1 >Charity Earth</h1></a>-->
+                <a href="index.html"><img src="assets/images/logo.png" class="logo" alt="Charity Earth logo"></a>
+                <a href="index.html"><img src="assets/images/logo.png" class="fixed-logo" alt="Charity Earth logo"></a>
                 <ul class="main-nav main-nav-js">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#quiz">Quiz</a></li>
@@ -55,17 +55,19 @@
                     <li><a href="#contact">Contact Us</a></li>
 
                 </ul>
-                <a class="mobile-icon mobile-icon-js"><i class="fa-solid fa-bars"></i></a>
+                <a class="mobile-icon mobile-icon-js fixed-mobile-icon"><i class="fa-solid fa-bars"></i></a>
             </div>
         </nav>
         <div class="hero-text">
-            <h2>Tell us what you value.
-                <br>Put your money where your values are.</h2>
+            <h1>Charity Earth</h1>
+            <p class="site-description">Tell us what you value.<br><br>
+                The fun way to discover new environmental charities! <br><br>
+                Take a short quiz and based on your areas of interest we will suggest a charity that would love a
+                donation from you.</p>
             <a class="btn btn-full" href="#quiz">Take quiz</a>
             <a class="btn btn-blank" href="#information">Show me more</a>
         </div>
     </header>
-
 
     <section id="quiz" class="quiz-section nav-quiz-section">
         <div class="row">
@@ -81,10 +83,10 @@
                     <label for="england">England</label>
                     <input type="radio" id="northern-ireland" name="location-radio" value="northern-ireland">
                     <label for="northern-ireland">Northern Ireland</label>
-                    <button data-type="submit" id="location-selection-button">
-                        Start the Quiz!
-                    </button>
                 </form>
+                <button class="start-button" data-type="button" id="location-selection-button">
+                    Start the Quiz!
+                </button>
             </div>
             <div>
                 <form id="quiz-form-one" action="">
@@ -98,8 +100,8 @@
                     <input type="radio" name="quiz-radio-one" id="qr-one-c" value="c">
                     <label for="qr-one-c">Choosing this will score for theme C</label>
                     <br>
-                    <button data-type="submit" id="quiz-one-button">Next<button>
                 </form>
+                <button data-type="button" id="quiz-one-button" class="theme-button">Next<button></button>
             </div>
             <div>
                 <form id="quiz-form-two" action="">
@@ -113,8 +115,8 @@
                     <input type="radio" name="quiz-radio-two" id="qr-two-e" value="e">
                     <label for="qr-two-e">Choosing this will score for theme E</label>
                     <br>
-                    <button data-type="submit" id="quiz-two-button">Next</button>
                 </form>
+                <button data-type="button" id="quiz-two-button" class="theme-button">Next</button>
             </div>
             <div>
                 <form id="quiz-form-three" action="">
@@ -128,14 +130,15 @@
                     <input type="radio" name="quiz-radio-three" id="qr-three-e" value="e">
                     <label for="qr-three-e">Choosing this will score for theme E</label>
                     <br>
-                    <button data-type="submit" id="quiz-three-button">Next</button>
                 </form>
+                <button data-type="button" id="quiz-three-button" class="theme-button">Next</button>
             </div>
             <div>
                 <form id="quiz-form-four" action="">
                     <p>Placeholder text for the fourth quiz question, a choice between theme B, C, and D</p>
                     <input type="radio" name="quiz-radio-four" id="qr-three-b" value="b">
-                    <label for="qr-four-b">Choosing this will score for theme B<label>
+
+                    <label for="qr-four-b">Choosing this will score for theme B</label>
                     <br>
                     <input type="radio" name="quiz-radio-four" id="qr-three-c" value="c">
                     <label for="qr-four-c">Choosing this will score for theme C</label>
@@ -143,14 +146,16 @@
                     <input type="radio" name="quiz-radio-four" id="qr-three-d" value="d">
                     <label for="qr-four-d">Choosing this will score for theme D</label>
                     <br>
-                    <button data-type="submit" id="quiz-four-button">Next</button>
+
                 </form>
+                <button data-type="button" id="quiz-four-button" class="theme-button">Next</button>
             </div>
             <div>
                 <form id="quiz-form-five" action="">
                     <p>Placeholder text for the fifth quiz question, a choice between theme A, D, and E</p>
                     <input type="radio" name="quiz-radio-five" id="qr-five-a" value="a">
-                    <label for="qr-five-a">Choosing this will score for theme A<label>
+
+                    <label for="qr-five-a">Choosing this will score for theme A</label>
                     <br>
                     <input type="radio" name="quiz-radio-five" id="qr-five-d" value="d">
                     <label for="qr-five-d">Choosing this will score for theme D</label>
@@ -158,14 +163,14 @@
                     <input type="radio" name="quiz-radio-five" id="qr-five-e" value="e">
                     <label for="qr-five-e">Choosing this will score for theme E</label>
                     <br>
-                    <button data-type="submit" id="quiz-five-button">Next</button>
                 </form>
+                <button data-type="button" id="quiz-five-button" class="theme-button">Next</button>
             </div>
             <div>
                 <form id="tiebreaker-form" action="">
                     <p>Placeholder text for the tiebreaker quiz question.</p>
                     <input type="radio" name="tiebreaker-radio" id="tr-a" value="a">
-                    <label for="tr-a">Choosing this will score for theme A<label>
+                    <label for="tr-a">Choosing this will score for theme A</label>
                     <br>
                     <input type="radio" name="tiebreaker-radio" id="tr-b" value="b">
                     <label for="tr-b">Choosing this will score for theme B</label>
@@ -174,33 +179,100 @@
                     <label for="tr-c">Choosing this will score for theme C</label>
                     <br>
                     <input type="radio" name="tiebreaker-radio" id="tr-d" value="d">
-                    <label for="tr-d">Choosing this will score for theme D<label>
+                    <label for="tr-d">Choosing this will score for theme D</label>
                     <br>
                     <input type="radio" name="tiebreaker-radio" id="tr-e" value="e">
-                    <label for="tr-e">Choosing this will score for theme E<label>
-                    <br>
-                    <button data-type="submit" id="tiebreaker-button">Next</button>
+                    <label for="tr-e">Choosing this will score for theme E</label>
+                    <br> 
                 </form>
+                <button data-type="button" id="tiebreaker-button">Next</button>
             </div>
         </div>
     </section>
 
-
     <section id="information" class="further-info-section">
-
+        <div class="row">
+            <h2>Browse other sites of interest</h2>
+        </div>
+        <div class="row js--wp-3">
+            <div class="col span-1-of-4 box">
+                <img src="assets/images/additional-1.jpg" alt="Image">
+                <h3>Heading</h3>
+                <div class="further-info">
+                    <i class=""></i>
+                    Category/Country 
+                </div>
+                <div class="further-info">
+                    <i class=""></i>
+                    Site name
+                </div>
+                <div class="further-info">
+                    <i class=""></i>
+                    <a href="#">Find out more</a>
+                </div>
+            </div>
+            <div class="col span-1-of-4 box">
+                <img src="assets/images/additional-2.jpg" alt="Image">
+                <h3>Heading</h3>
+                <div class="further-info">
+                    <i class=""></i>
+                    Category/Country 
+                </div>
+                <div class="further-info">
+                    <i class=""></i>
+                    Site name
+                </div>
+                <div class="further-info">
+                    <i class=""></i>
+                    <a href="#">Find out more</a>
+                </div>
+            </div>
+            <div class="col span-1-of-4 box">
+                <img src="assets/images/additional-3.jpg" alt="Image">
+                <h3>Heading</h3>
+                <div class="further-info">
+                    <i class=""></i>
+                    Category/Country 
+                </div>
+                <div class="further-info">
+                    <i class=""></i>
+                    Site name
+                </div>
+                <div class="further-info">
+                    <i class=""></i>
+                    <a href="#">Find out more</a>
+                </div>
+            </div>
+            <div class="col span-1-of-4 box">
+                <img src="assets/images/additional-4.jpg" alt="Image">
+                <h3>Heading</h3>
+                <div class="further-info">
+                    <i class=""></i>
+                    Category/Country 
+                </div>
+                <div class="further-info">
+                    <i class=""></i>
+                    Site name
+                </div>
+                <div class="further-info">
+                    <i class=""></i>
+                    <a href="#">Find out more</a>
+                </div>
+            </div>
+        </div>
 
     </section>
 
     <section id="contact" class="contact-section" id="contact">
-            <form>
-                <h3 class="contact-heading">Get In Touch</h3>
-                <label for="name"></label>
-                <input name="name" id="name" type="text" class="contact-input" placeholder="Name" />
-                <label for="email"></label>
-                <input name="email" id="email" type="text" class="contact-input" placeholder="Email" />
-                <textarea name="text" class="contact-input" placeholder="Type your message here"></textarea>
-                <input class="btn" type="submit" value="SEND" />
-            </form>
+        <form>
+            <h3 class="contact-heading">Get In Touch</h3>
+            <label for="name"></label>
+            <input name="name" id="name" type="text" class="contact-input" placeholder="Name" />
+            <label for="email"></label>
+            <input name="email" id="email" type="text" class="contact-input" placeholder="Email" />
+            <textarea name="text" class="contact-input" placeholder="Type your message here"></textarea>
+            <input class="btn" type="submit" value="SEND" />
+        </form>
     </section>
 
     <!-- footer -->

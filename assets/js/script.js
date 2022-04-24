@@ -44,7 +44,7 @@ function themeSubmit() {
 // called whenever answers are submitted to verify that a radio button has been checked for the current section.
 // if it has, stageTracker is augmented by 1 and next stage is called, if not User is given an alert to check an answer
 function verifyRadioCheck() {
-
+    let currentStage = document.getElementsByClassName(quiz-forms)[stageTracker]
     
     //checkForTie();
 }

@@ -35,21 +35,18 @@ body {
 /* REUSABLE COMPONENTS */
 /*-------------------------------------*/
 
-h1,
-h2 { 
+h1
+ { 
     letter-spacing: 1px; 
-    font-size: 2rem;
-    font-weight: 300;
+    font-size: 3rem;
+    font-weight: 400;
     text-transform: uppercase;
-    color: #fff;
-    
-}
-
-h2 {
+    color: var(--brown);
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     word-spacing: 4px;
     line-height: 55px;
+    
 }
 
 a {
@@ -134,6 +131,11 @@ header {
     transform: translate(-50%, -50%);
 }
 
+.site-description {
+    color: #fff;
+    margin: 40px 0;
+}
+
 .logo {
     height: 75px;
     width: auto;
@@ -149,10 +151,6 @@ header {
     height: 45px;
     width: auto;
     
-}
-
-.fixed-logo h1 {
-    font-size: 1.15rem;
 }
 
 
@@ -204,7 +202,7 @@ header {
 }
 
 .fixed .main-nav {
-    margin-top: 15px;
+   margin: 20px;
 }
 
 .fixed .fixed-logo {
@@ -217,7 +215,7 @@ header {
 
 .mobile-icon {
     display: none;
-    margin-top: 30px;
+    margin-top: 25px;
     cursor: pointer;
     float: right;
 }
@@ -373,16 +371,34 @@ footer {
 
 /* small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
-    html {
-        font-size: 17px;
+    body {
+        font-size: 18px;
     }
 
 }
 
 /* small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
-    html {
-        font-size: 14px;
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 40px 0;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .logo {
+        height: 60px;
+        margin-top: 25px;
+    }
+
+    .site-description {
+        font-size: 1rem;
+        margin-bottom: 30px;
     }
 
     .main-nav {
@@ -392,6 +408,10 @@ footer {
     .mobile-icon {
         display: inline-block;
         margin-top: 30px;
+    }
+
+    .mobile-icon i {
+        font-size: 1rem;
     }
 
     .main-nav {
@@ -425,7 +445,43 @@ footer {
 
 /* small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
-    
+    body {
+        font-size: 16px;
+    }
+
+    h1
+    { 
+        font-size: 1.75rem;
+        margin: 20px 0;   
+    }
+
+    section {
+        padding: 40px 0;
+    }
+
+    .row {
+        padding: 0 25px;
+    }
+
+    .site-description {
+        margin-bottom: 30px;
+    }
+
+    .btn
+    {
+        margin: 10px;
+    }
+
+    .logo {
+        height: 50px;
+        margin-top: 25px;
+    }
+
+    form {
+        max-width: 75%;
+        margin-right: 12%;
+    }
+
 }
 
 

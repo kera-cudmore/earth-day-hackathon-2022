@@ -141,20 +141,26 @@ function verifyRadioCheck() {
 
 function checkForTie(value) {
 
-    let score = scorecard[value]  
+    let score = scorecard[value]; 
     let hiddenContent = document.getElementById('tiebreaker-form');
     for (let i = scorecard; i <= scorecard.length[score]; i++) {
         if ((stageTracker <= 6 && scorecard.length[score] == scorecard.length[score])
             ) {
             alert('We need just a little more information from you, would you ming answering one more Question?');
             hiddenContent.style.display = 'show';
+    } else {
+        
     }
 }
     
-
-    checkForTie(score)
+    console.log(score)
+    
 
 } 
+
+checkForTie(score)
+
+
 // called after successful verifyRadioCheck, hides previous stage of quiz, shows new stage
 function nextStage() {
 
@@ -166,7 +172,3 @@ function nextStage() {
 //     let currentForm = document.forms[stageTracker] {
 
 })
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 83e179b746757df623879eb894d3d67d68f633c6

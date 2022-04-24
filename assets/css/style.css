@@ -69,6 +69,11 @@ section {
 
 /* -----BUTTONS------ */
 
+button {
+    margin: auto;
+    display: block;
+}
+
 .btn:link,
 .btn:visited {
     display: inline-block;

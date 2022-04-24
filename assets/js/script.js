@@ -33,7 +33,11 @@ $(document).ready(function() {
 
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("location-selection-button").addEventListener("click", locationSubmit);
-
+    document.getElementById("quiz-one-button").addEventListener("click", themeSubmit);
+    document.getElementById("quiz-two-button").addEventListener("click", themeSubmit);
+    document.getElementById("quiz-three-button").addEventListener("click", themeSubmit);
+    document.getElementById("quiz-four-button").addEventListener("click", themeSubmit);
+    document.getElementById("quiz-five-button").addEventListener("click", themeSubmit);
 })
 
 //variable set by country selection question, will be used to generate final results
@@ -48,9 +52,9 @@ d:0,
 e:0 
 }
 
-// stageTrackerkeeps count of the "stage" of the quiz. 0 is location question, 1 is the first quiz question, 2 is second quiz question etc.
+// stageTracker keeps count of the "stage" of the quiz. 0 is location question, 1 is the first quiz question, 2 is second quiz question etc.
 // is augmented by "+1" after each answer is submitted, moving the quiz to the next stage.
-let stageTracker = 0
+let stageTracker = 0;
 
 
 
@@ -62,13 +66,27 @@ function locationSubmit() {
             country = locationSelector[i].value;
         }
     }
-    //verifyRadioCheck();
     console.log(country);
+    console.log(stageTracker);
+    if (verifyRadioCheck()) {
+        stageTracker +=1;
+        console.log(stageTracker)
+        // nextStage();
+    }
 }
 
 // called when "next" buttons are pressed after each quiz section, adds +1 to scorecard object for matching answer 
 function themeSubmit() {
-
+    console.log("themeSubmitTest")
+    if (verifyRadioCheck()) {
+        if (stageTracker >= 1 && stageTracker < 7) {
+            // addScore();
+        }
+        stageTracker +=1;
+        console.log(stageTracker)
+        // nextStage();
+    }
+    
 
 
 }
@@ -77,8 +95,13 @@ function themeSubmit() {
 // called whenever answers are submitted to verify that a radio button has been checked for the current section.
 // if it has, stageTracker is augmented by 1 and next stage is called, if not User is given an alert to check an answer
 function verifyRadioCheck() {
-
-    
+    let currentForm = document.forms[stageTracker]
+    for (i=0; i< currentForm.length; i++){
+        if (currentForm[i].checked){
+            return true
+        }
+    }
+    console.log(radio-check-verified)
     //checkForTie();
 }
 
@@ -88,3 +111,13 @@ function verifyRadioCheck() {
 function checkForTie() {
 
 } 
+// called after successful verifyRadioCheck, hides previous stage of quiz, shows new stage
+function nextStage() {
+
+}
+
+
+// called after a theme-form is filled out
+function addScore() {
+
+}

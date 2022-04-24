@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 
 :root {
-    --dark-green:  #03292c;
+    --dark-green: #03292c;
     --emerald-green: #0e5150;
     --teal: #158673;
     --light-blue: #63cbe9;
@@ -21,7 +21,8 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     background-color: #fff;
     color: var(--dark-green);
     font-family: 'Oxygen', 'Arial', sans-serif;
@@ -34,15 +35,34 @@ html {
 /* REUSABLE COMPONENTS */
 /*-------------------------------------*/
 
-h1 {
-    margin: 0;
-    margin-bottom: 20px;
+h1,
+h2 { 
+    letter-spacing: 1px; 
     font-size: 2rem;
     font-weight: 300;
     text-transform: uppercase;
     color: #fff;
-    letter-spacing: 1px;
+    
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 20px;
     word-spacing: 4px;
+    line-height: 55px;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding: 80px 0;
+    
+}
+
+.quiz-section {
+    clear: both;
 }
 
 .row {
@@ -54,14 +74,13 @@ h1 {
 
 .btn:link,
 .btn:visited {
-    display:inline-block;
+    display: inline-block;
     color: #fff;
     border-radius: 200px;
     padding: 10px 30px;
     font-weight: 300;
-    text-decoration: none;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
-    
+
 }
 
 .btn-full:link,
@@ -69,7 +88,7 @@ h1 {
     background-color: var(--brown);
     border: 1px solid var(--brown);
     margin-right: 15px;
-    
+
 }
 
 .btn-blank:link,
@@ -86,7 +105,7 @@ h1 {
 .btn-full:hover,
 .btn-full:active {
     border: 1px solid var(--emerald-green);
-    
+
 }
 
 .btn-blank:hover,
@@ -116,15 +135,34 @@ header {
 }
 
 .logo {
+    height: 75px;
+    width: auto;
     float: left;
-    margin-top: 20px;
-
+    margin-top: 30px;
 }
+
+.fixed-logo {
+    display: none;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 45px;
+    width: auto;
+    
+}
+
+.fixed-logo h1 {
+    font-size: 1.15rem;
+}
+
+
+/* ----MAIN NAV----*/
 
 .main-nav {
     float: right;
     list-style: none;
     margin-top: 55px;
+    display: block;
 }
 
 .main-nav li {
@@ -136,7 +174,6 @@ header {
 .main-nav li a:visited {
     color: #fff;
     font-size: 0.9rem;
-    text-decoration: none;
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
     padding: 8px 0;
@@ -149,26 +186,171 @@ header {
 
 }
 
+/*----FIXED NAV----*/
+
+.fixed {
+    background-color: #905a39e1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 9999; 
+}
+
+.fixed .main-nav li a:link,
+.fixed .main-nav li a:visited {
+    color: #fff;
+    padding: 10px 0;
+}
+
+.fixed .main-nav {
+    margin-top: 15px;
+}
+
+.fixed .fixed-logo {
+    display: block;
+}
+
+.fixed .logo {
+    display: none;
+}
+
+.mobile-icon {
+    display: none;
+    margin-top: 30px;
+    cursor: pointer;
+    float: right;
+}
+
+.mobile-icon i {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+
 /*-------------------------------------*/
-/* CONTACT US PAGE */
+/* CONTACT FORM */
 /*-------------------------------------*/
+
+form {
+    max-width: 420px;
+    margin: 50px auto;
+}
 
 .contact-section {
-    background-color: var(--emerald-green);
-    color: var(--white);
+    background-color: rgb(242, 238, 238);
 }
 
-fieldset {
-    border: var(--brown) 2px solid;
-    border-radius: 2rem;
+.contact-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #905A39;
 }
 
-.form-input {
-    padding-bottom: 1rem;
+.contact-input {
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid #905A39;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
 }
 
-input, textarea {
-    width: 90%;
+.contact-input:focus {
+    border: 2px solid #158673;
+}
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+[type="submit"] {
+    width: 25%;
+    background: #0E5150;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: #905A39;
+    font-size: 0.9rem;
+    letter-spacing: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+
+[type="submit"]:hover {
+    background: #03292C;
+}
+
+/*-------------------------------------*/
+/* FOOTER */
+/*-------------------------------------*/
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    overflow: hidden;
+    background-color: #158673;
+    min-height: 80px;
+}
+
+
+.footer-row {
+    margin-top: 6px;
+}
+
+
+.footer-list {
+    list-style: none;
+    margin-bottom: 1.5rem;
+    display: inline;
+    text-decoration: none;
+}
+
+.footer-links {
+    display: inline;
+    padding: 12px;
+}
+
+.footer-links>a,
+.footer-links>a:visited {
+    color: #fff;
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    padding: 8px 0;
+    transition: border-bottom 0.2s;
+}
+
+.footer-links>a:hover,
+.footer-links>a:active {
+    border-bottom: 2px solid var(--beige);
+    font-weight: 600;
+}
+
+/*-------------------------------------*/
+/*  404 ERROR PAGE */
+/*-------------------------------------*/
+
+.error-text {
+    color: var(--beige);
+    font-size: 1.25rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
 }
 
 /*-------------------------------------*/
@@ -189,25 +371,61 @@ input, textarea {
 
 }
 
-
 /* small tablet to big tablet: from 768px to 1023px */
-@media only screen and (max-width: 1023px){
-    html { 
+@media only screen and (max-width: 1023px) {
+    html {
         font-size: 17px;
     }
 
 }
 
-
 /* small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
-    html { 
+    html {
         font-size: 14px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .mobile-icon {
+        display: inline-block;
+        margin-top: 30px;
+    }
+
+    .main-nav {
+        margin-top: 25px;
+        margin-left: 35px;
+        float: left;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        font-size: 1rem;
+        display: block;
+        padding: 10px 0;
+        border: 0;
+    }
+
+    .fixed .main-nav li a:link,
+    .fixed .main-nav li a:visited {
+        padding: 10px 0;
+    }
+
+    .fixed .main-nav {
+        margin-top: 10px;
     }
 
 }
 
 /* small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
-
+    
 }
+
+

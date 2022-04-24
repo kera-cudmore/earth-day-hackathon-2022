@@ -26,12 +26,6 @@ $(document).ready(function() {
         }
     });
 
-<<<<<<< HEAD
-    
-});
-=======
-});
-
 // QUIZ JS
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -65,6 +59,7 @@ let stageTracker = 0
 
 // called when 'start quiz' button is clicked, sets country variable to answer selected by radio buttons
 function locationSubmit() {
+
     let locationSelector = document.forms[0]
     for (i=0; i< locationSelector.length; i++){
         if (locationSelector[i].checked){
@@ -79,7 +74,7 @@ function locationSubmit() {
         // nextStage();
     }
 
-}
+};
 
 // called when "next" buttons are pressed after each quiz section, adds +1 to scorecard object for matching answer 
 function themeSubmit() {
@@ -121,6 +116,8 @@ function verifyRadioCheck() {
 //if no tie then proceeds to donation-type quiz question  
 function checkForTie() {
 
+    
+
 } 
 // called after successful verifyRadioCheck, hides previous stage of quiz, shows new stage
 function nextStage() {
@@ -135,4 +132,4 @@ function nextStage() {
 //}
 
 
->>>>>>> 2832509de62c7a6f0ffbb8953568a1641000629a
+

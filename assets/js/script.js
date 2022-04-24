@@ -135,6 +135,5 @@ function nextStage() {
 // function addScore() {
 //     let currentForm = document.forms[stageTracker] {
 
-}
 
 

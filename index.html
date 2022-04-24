@@ -58,120 +58,117 @@
     </header>
 
     <section class="quiz-section">
+        <form id ="location-selection-form" action="">
+                <input type="radio" id="scotland" name="location-radio" value="scotland">
+                <label for="scotland">Scotland</label>
+                <input type="radio" id="wales" name="location-radio" value="wales">
+                <label for="wales">Wales</label>
+                <input type="radio" id="ireland" name="location-radio" value="ireland">
+                <label for="ireland">Republic of Ireland</label>
+                <input type="radio" id="england" name="location-radio" value="england">
+                <label for="england">England</label>
+                <input type="radio" id="northern-ireland" name="location-radio" value="northern-ireland">
+                <label for="northern-ireland">Northern Ireland</label>     
+        </form>
+        <button type="button" id="location-selection-button">
+            Start the Quiz!
+        </button>
         <div>
-            <div>
-                <form id="location-selection-form" action="">
-                    <input type="radio" id="scotland" name="location-radio" value="scotland">
-                    <label for="scotland">Scotland</label>
-                    <input type="radio" id="wales" name="location-radio" value="wales">
-                    <label for="wales">Wales</label>
-                    <input type="radio" id="ireland" name="location-radio" value="ireland">
-                    <label for="ireland">Republic of Ireland</label>
-                    <input type="radio" id="england" name="location-radio" value="england">
-                    <label for="england">England</label>
-                    <input type="radio" id="northern-ireland" name="location-radio" value="northern-ireland">
-                    <label for="northern-ireland">Northern Ireland</label>
-                    <button data-type="submit" id="location-selection-button">
-                        Start the Quiz!
-                    </button>
-                </form>
-            </div>
-            <div>
-                <form id="quiz-form-one" action="">
-                    <p>Placeholder text for the first quiz question, a choice between A, B, and C</p>
-                    <input type="radio" name="quiz-radio-one" id="qr-one-a" value="a">
-                    <label for="qr-one-a">Choosing this will score for theme A</label>
-                    <br>
-                    <input type="radio" name="quiz-radio-one" id="qr-one-b" value="b">
-                    <label for="qr-one-b">Choosing this will score for theme B</label>
-                    <br>
-                    <input type="radio" name="quiz-radio-one" id="qr-one-c" value="c">
-                    <label for="qr-one-c">Choosing this will score for theme C</label>
-                    <br>
-                    <button data-type="submit" id="quiz-one-button">Next<button>
-                </form>
-            </div>
-            <div>
-                <form id="quiz-form-two" action="">
-                    <p>Placeholder text for the second quiz question, a choice between theme C, D, and E</p>
-                    <input type="radio" name="quiz-radio-two" id="qr-two-c" value="c">
-                    <label for="qr-two-c">Choosing this will score for theme C</label>
-                    <br>
-                    <input type="radio" name="quiz-radio-two" id="qr-two-d" value="d">
-                    <label for="qr-two-d">Choosing this will score for theme D</label>
-                    <br>
-                    <input type="radio" name="quiz-radio-two" id="qr-two-e" value="e">
-                    <label for="qr-two-e">Choosing this will score for theme E</label>
-                    <br>
-                    <button data-type="submit" id="quiz-two-button">Next</button>
-                </form>
-            </div>
-            <div>
-                <form id="quiz-form-three" action="">
-                    <p>Placeholder text for the third quiz question, a choice between theme A, B, and E</p>
-                    <input type="radio" name="quiz-radio-three" id="qr-three-a" value="a">
-                    <label for="qr-three-a">Choosing this will score for theme A</label>
-                    <br>
-                    <input type="radio" name="quiz-radio-three" id="qr-three-b" value="b">
-                    <label for="qr-three-b">Choosing this will score for theme B</label>
-                    <br>
-                    <input type="radio" name="quiz-radio-three" id="qr-three-e" value="e">
-                    <label for="qr-three-e">Choosing this will score for theme E</label>
-                    <br>
-                    <button data-type="submit" id="quiz-three-button">Next</button>
-                </form>
-            </div>
-            <div>
-                <form id="quiz-form-four" action="">
-                    <p>Placeholder text for the fourth quiz question, a choice between theme B, C, and D</p>
-                    <input type="radio" name="quiz-radio-four" id="qr-three-b" value="b">
-                    <label for="qr-four-b">Choosing this will score for theme B<label>
-                    <br>
-                    <input type="radio" name="quiz-radio-four" id="qr-three-c" value="c">
-                    <label for="qr-four-c">Choosing this will score for theme C</label>
-                    <br>
-                    <input type="radio" name="quiz-radio-four" id="qr-three-d" value="d">
-                    <label for="qr-four-d">Choosing this will score for theme D</label>
-                    <br>
-                    <button data-type="submit" id="quiz-four-button">Next</button>
-                </form>
-            </div>
-            <div>
-                <form id="quiz-form-five" action="">
-                    <p>Placeholder text for the fifth quiz question, a choice between theme A, D, and E</p>
-                    <input type="radio" name="quiz-radio-five" id="qr-five-a" value="a">
-                    <label for="qr-five-a">Choosing this will score for theme A<label>
-                    <br>
-                    <input type="radio" name="quiz-radio-five" id="qr-five-d" value="d">
-                    <label for="qr-five-d">Choosing this will score for theme D</label>
-                    <br>
-                    <input type="radio" name="quiz-radio-five" id="qr-five-e" value="e">
-                    <label for="qr-five-e">Choosing this will score for theme E</label>
-                    <br>
-                    <button data-type="submit" id="quiz-five-button">Next</button>
-                </form>
-            </div>
-            <div>
-                <form id="tiebreaker-form" action="">
-                    <p>Placeholder text for the tiebreaker quiz question.</p>
-                    <input type="radio" name="tiebreaker-radio" id="tr-a" value="a">
-                    <label for="tr-a">Choosing this will score for theme A<label>
-                    <br>
-                    <input type="radio" name="tiebreaker-radio" id="tr-b" value="b">
-                    <label for="tr-b">Choosing this will score for theme B</label>
-                    <br>
-                    <input type="radio" name="tiebreaker-radio" id="tr-c" value="c">
-                    <label for="tr-c">Choosing this will score for theme C</label>
-                    <br>
-                    <input type="radio" name="tiebreaker-radio" id="tr-d" value="d">
-                    <label for="tr-d">Choosing this will score for theme D<label>
-                    <br>
-                    <input type="radio" name="tiebreaker-radio" id="tr-e" value="e">
-                    <label for="tr-e">Choosing this will score for theme E<label>
-                    <br>
-                    <button data-type="submit" id="tiebreaker-button">Next</button>
-                </form>
-            </div>
+
+            <form id="quiz-form-one" action="">
+                <p>Placeholder text for the first quiz question, a choice between A, B, and C</p>
+                <input type="radio" name="quiz-radio-one" id="qr-one-a" value="a">
+                <label for="qr-one-a">Choosing this will score for theme A</label>
+                <br>
+                <input type="radio" name="quiz-radio-one" id="qr-one-b" value="b">
+                <label for="qr-one-b">Choosing this will score for theme B</label>
+                <br>
+                <input type="radio" name="quiz-radio-one" id="qr-one-c" value="c">
+                <label for="qr-one-c">Choosing this will score for theme C</label>
+                <br>
+            </form>
+            <button data-type="submit" id="quiz-one-button">Next<button></button>
+        </div>
+        <div>
+            <form id="quiz-form-two" action="">
+                <p>Placeholder text for the second quiz question, a choice between theme C, D, and E</p>
+                <input type="radio" name="quiz-radio-two" id="qr-two-c" value="c">
+                <label for="qr-two-c">Choosing this will score for theme C</label>
+                <br>
+                <input type="radio" name="quiz-radio-two" id="qr-two-d" value="d">
+                <label for="qr-two-d">Choosing this will score for theme D</label>
+                <br>
+                <input type="radio" name="quiz-radio-two" id="qr-two-e" value="e">
+                <label for="qr-two-e">Choosing this will score for theme E</label>
+                <br> 
+            </form>
+            <button data-type="submit" id="quiz-two-button">Next</button>
+        </div>
+        <div>
+            <form id="quiz-form-three" action="">
+                <p>Placeholder text for the third quiz question, a choice between theme A, B, and E</p>
+                <input type="radio" name="quiz-radio-three" id="qr-three-a" value="a">
+                <label for="qr-three-a">Choosing this will score for theme A</label>
+                <br>
+                <input type="radio" name="quiz-radio-three" id="qr-three-b" value="b">
+                <label for="qr-three-b">Choosing this will score for theme B</label>
+                <br>
+                <input type="radio" name="quiz-radio-three" id="qr-three-e" value="e">
+                <label for="qr-three-e">Choosing this will score for theme E</label>
+                <br>
+            </form>
+            <button data-type="submit" id="quiz-three-button">Next</button>
+        </div>
+        <div>
+            <form id="quiz-form-four" action="">
+                <p>Placeholder text for the fourth quiz question, a choice between theme B, C, and D</p>
+                <input type="radio" name="quiz-radio-four" id="qr-three-b" value="b">
+                <label for="qr-four-b">Choosing this will score for theme B<label>
+                <br>
+                <input type="radio" name="quiz-radio-four" id="qr-three-c" value="c">
+                <label for="qr-four-c">Choosing this will score for theme C</label>
+                <br>
+                <input type="radio" name="quiz-radio-four" id="qr-three-d" value="d">
+                <label for="qr-four-d">Choosing this will score for theme D</label>
+                <br>
+            </form>
+            <button data-type="submit" id="quiz-four-button">Next</button>
+        </div>
+        <div>
+            <form id="quiz-form-five" action="">
+                <p>Placeholder text for the fifth quiz question, a choice between theme A, D, and E</p>
+                <input type="radio" name="quiz-radio-five" id="qr-five-a" value="a">
+                <label for="qr-five-a">Choosing this will score for theme A<label>
+                <br>
+                <input type="radio" name="quiz-radio-five" id="qr-five-d" value="d">
+                <label for="qr-five-d">Choosing this will score for theme D</label>
+                <br>
+                <input type="radio" name="quiz-radio-five" id="qr-five-e" value="e">
+                <label for="qr-five-e">Choosing this will score for theme E</label>
+                <br>
+            </form>
+            <button data-type="submit" id="quiz-five-button">Next</button>
+        </div>
+        <div>
+            <form id="tiebreaker-form" action="">
+                <p>Placeholder text for the tiebreaker quiz question.</p>
+                <input type="radio" name="tiebreaker-radio" id="tr-a" value="a">
+                <label for="tr-a">Choosing this will score for theme A<label>
+                <br>
+                <input type="radio" name="tiebreaker-radio" id="tr-b" value="b">
+                <label for="tr-b">Choosing this will score for theme B</label>
+                <br>
+                <input type="radio" name="tiebreaker-radio" id="tr-c" value="c">
+                <label for="tr-c">Choosing this will score for theme C</label>
+                <br>
+                <input type="radio" name="tiebreaker-radio" id="tr-d" value="d">
+                <label for="tr-d">Choosing this will score for theme D<label>
+                <br>
+                <input type="radio" name="tiebreaker-radio" id="tr-e" value="e">
+                <label for="tr-e">Choosing this will score for theme E<label>
+                <br>
+            </form>
+            <button data-type="submit" id="tiebreaker-button">Next</button>
         </div>
     </section>
 

@@ -193,11 +193,13 @@ Github - To save and store the files for the website.
 
 Google Fonts - To import the fonts used on the website.
 
-?Font Awesome - For the iconography on the website.
+Font Awesome - For the iconography on the website.
 
 Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
 [Tiny PNG](https://tinypng.com/) To compress images.
+
+[Birme](https://www.birme.net/?target_width=640&target_height=480&no_resize=true&image_format=webp) To compress images in the webp format.
 
 [Favicon.io](https://favicon.io/) To create favicon.
 

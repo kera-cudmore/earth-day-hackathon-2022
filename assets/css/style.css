@@ -56,6 +56,10 @@ h2 {
     letter-spacing: 1px;
 }
 
+h3 {
+    color: var(--dark-green);
+}
+
 a {
     text-decoration: none;
 }
@@ -248,11 +252,12 @@ header {
 .box img {
     width: 100%;
     height: auto;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .further-info {
-    margin-bottom: 5px;
+    color: var(--dark-green);
+    margin-bottom: 10px;
 }
 
 
@@ -341,7 +346,7 @@ footer {
     text-align: center;
     margin-top: 42px;
     overflow: hidden;
-    background-color: #905A39;
+    background-color: var(--emerald-green);
     min-height: auto;
 }
 

@@ -1,7 +1,7 @@
 
 # Charity Earth -  Testing
 
-site image to go here
+![Charity Earth Responsive](assets/images/charity-earth-responsive.png)
 
 Visit the deployed site: [Charity Earth](https://kera-cudmore.github.io/earth-day-hackathon-2022/index.html)
 

@@ -162,7 +162,11 @@ The 404 page lets the user know that there has been an error and gives them the 
 
     ![Favicon](readme/favicon.png)
 
-  * A footer. The footer contains links to the various sections of the site for ease of naviagation.
+  * A navbar. This allows the user to easily navigate through the site. On mobile devices the navbar collapses down into a toggle navbar.
+
+    ![Navbar](readme/navbar.png)
+
+  * A footer. The footer contains links to the the teams GitHub and Linked In accounts.
 
     ![Footer image](readme/footer.png)
 

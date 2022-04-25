@@ -1,9 +1,9 @@
 
-# site name here -  Testing
+# Charity Earth -  Testing
 
 site image to go here
 
-Visit the deployed site: deployed site link to go here
+Visit the deployed site: [Charity Earth](https://kera-cudmore.github.io/earth-day-hackathon-2022/index.html)
 
 Back to [README.md](README.md)
 - - -
@@ -55,7 +55,7 @@ We have also used WAVE to check the accessibility of our site, together with W3 
 [jshint](https://jshint.com/) was used to validate the JavaScript.
 
 * [script.js]
-* [sendEmail.js]
+* [sendEmail.js](readme/testing/email-js.png)
 
 - - -
 
@@ -71,7 +71,7 @@ We used Lighthouse within the Chrome Developer Tools to test the performance, ac
 * [End Plastic Page]
 * [Environmental Literacy Page]
 * [Food & Environment Page]
-* [404 Page]
+* [404 Page](readme/testing/lighthouse-desktop-404.png)
 
 ### Mobile Results
 
@@ -81,7 +81,7 @@ We used Lighthouse within the Chrome Developer Tools to test the performance, ac
 * [End Plastic Page]
 * [Environmental Literacy Page]
 * [Food & Environment Page]
-* [404 Page]
+* [404 Page](readme/testing/lighthouse-mobile-404.png)
 
 - - -
 
@@ -93,28 +93,34 @@ We used Lighthouse within the Chrome Developer Tools to test the performance, ac
 
 | Goals | How are they achieved? | Images |
 | :--- | :--- | :--- |
+| To quickly and easily discover charities that are local to me, that have an environmental focus, and which reflect my values and interests, without having to research and compare a range of organisations.
+ | :--- | :--- |
+| To be profiled for these recommendations through a light-hearted, multiple choice quiz. | :--- | :--- |
+| To be presented with a link to my recommended organisation’s website. | :--- | :--- |
+| To feel secure in the knowledge that my recommended organisation is a legitimate,  registered charity. | :--- | :--- |
+| To  be able to easily navigate back to the homepage after completing the quiz if I wish to repeat the quiz with different answers. | :--- | :--- |
+| To have a means of learning more about Earth Day, and its theme for 2022, as well as a resource for discovering more organisations that work in these areas.
+ | :--- | :--- |
 
 `Returning Visitors`
 
 | Goals | How are they achieved? | Images |
 | :--- | :--- | :--- |
-
-`Frequent Visitors`
-
-| Goals | How are they achieved? | Images |
-| :--- | :--- | :--- |
+| To be able to access a full list of the charities for my area of choice, without having to navigate the quiz repeatedly to get different results. | :--- | :--- |
+| To have different quiz questions presented to me based on my earlier choices in the quiz, creating a sense a variety that encourages repeat use.
+ | :--- | :--- |
 
 - - -
 
 ### Full Testing
 
-Full testing was performed on the following devices:
+Full testing was performed on the following devices, and additional testing for other devices was carried out using developer tools:
 
-*
+iMac 2021, MacBook Pro 14 inch 2021, iPhone 13 Pro, Samsung S20, 25 inch monitor, windows laptop
 
 Each device tested the site using the following browsers:
 
-*
+Google Chrome on Mac and Windows, Safari
 
 `Index Page`
 

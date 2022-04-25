@@ -170,7 +170,7 @@ We have been mindful during coding to ensure that the website is as accessible f
 
 * Using semantic HTML.
 * Using descriptive alt attributes on images on the site.
-* Providing information for screen readers where there are icons used and no text.
+* Providing information for screen readers where there are icons used and no text. This has been actioned in the footer of our project.
 * Ensuring that there is a sufficient colour contrast throughout the site.
 
 - - -
@@ -193,11 +193,13 @@ Github - To save and store the files for the website.
 
 Google Fonts - To import the fonts used on the website.
 
-?Font Awesome - For the iconography on the website.
+Font Awesome - For the iconography on the website.
 
 Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
 [Tiny PNG](https://tinypng.com/) To compress images.
+
+[Birme](https://www.birme.net/?target_width=640&target_height=480&no_resize=true&image_format=webp) To compress images in the webp format.
 
 [Favicon.io](https://favicon.io/) To create favicon.
 
@@ -253,6 +255,8 @@ Please view [Testing.md](TESTING.md) for the testing documentation.
 
 * [Header Image](https://unsplash.com/photos/0DtcZKzrP6Y) used on the index page and 404 page
 * [Logo Image](https://pxhere.com/en/photo/1093799)
+
+* All Charity Logo images were taken from each charities websites.
 
 ### Acknowledgments
 

@@ -255,6 +255,8 @@ Please view [Testing.md](TESTING.md) for the testing documentation.
 
 ### Content
 
+The content for the site was created by the team. Biographies for each charity were taken from the charities website.
+
 ### Media
 
 * [Header Image](https://unsplash.com/photos/0DtcZKzrP6Y) used on the index page and 404 page

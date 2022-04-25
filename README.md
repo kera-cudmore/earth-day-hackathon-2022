@@ -170,7 +170,7 @@ We have been mindful during coding to ensure that the website is as accessible f
 
 * Using semantic HTML.
 * Using descriptive alt attributes on images on the site.
-* Providing information for screen readers where there are icons used and no text.
+* Providing information for screen readers where there are icons used and no text. This has been actioned in the footer of our project.
 * Ensuring that there is a sufficient colour contrast throughout the site.
 
 - - -

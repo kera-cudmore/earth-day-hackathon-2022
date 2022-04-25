@@ -259,6 +259,11 @@ Please view [Testing.md](TESTING.md) for the testing documentation.
 
 * [Header Image](https://unsplash.com/photos/0DtcZKzrP6Y) used on the index page and 404 page
 * [Logo Image](https://pxhere.com/en/photo/1093799)
+* [additional-1](https://unsplash.com/photos/RUqoVelx59I)
+* [additional-2](https://unsplash.com/photos/WJkc3xZjSXw)
+* [additional-3](https://unsplash.com/photos/9UkTV-18AeM)
+* [additional-4](https://unsplash.com/photos/qTyR49889Ck)
+
 
 * All Charity Logo images were taken from each charities websites.
 

@@ -100,6 +100,10 @@ We have chosen to use the oxygen font. This is a sans serif font which is great 
 
 ### Imagery
 
+All imagery used within the site has been chosen to showcase the beautiful nature of Earth.
+
+All charity images used belong to their respective charitites.
+
 ### Wireframes
 
 Wireframes were created for mobile, tablet and desktop using Balsamiq.
@@ -146,7 +150,7 @@ Wireframes were created for mobile, tablet and desktop using Balsamiq.
 
 ### Features
 
-The website is comprised of 2 pages, the index page and the 404 page.
+The website is comprised of 7 pages, the index page, 5 charity themed pages and the 404 page.
 
 The index page is divided into sections, the hero image, the quiz, the information section and the contact section.
 

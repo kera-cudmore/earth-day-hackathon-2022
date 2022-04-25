@@ -469,12 +469,12 @@ Google Chrome on Mac and Windows, Safari
 
 | Known Bug No | Bug Issue | Plan to Resolve |
 | :--- | :--- | :--- |
-| :--- | :--- | :--- |
+| 1 |  | :--- |
 
 ### Solved Bugs
 
 | Bug No | Bug Issue | How Resolved |
 | :--- | :--- | :--- |
-| :--- | :--- | :--- |
+| 1 |  | :--- |
 
 Back to [README.md](README.md)

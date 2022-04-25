@@ -91,16 +91,16 @@ We used Lighthouse within the Chrome Developer Tools to test the performance, ac
 
 `First Time Visitors`
 
-| Goals | How are they achieved? | Images |
+| Goals | How are they achieved? | Links & Images |
 | :--- | :--- | :--- |
 | To quickly and easily discover charities that are local to me, that have an environmental focus, and which reflect my values and interests, without having to research and compare a range of organisations.
  | :--- | :--- |
 | To be profiled for these recommendations through a light-hearted, multiple choice quiz. | :--- | :--- |
 | To be presented with a link to my recommended organisation’s website. | :--- | :--- |
-| To feel secure in the knowledge that my recommended organisation is a legitimate,  registered charity. | :--- | :--- |
-| To  be able to easily navigate back to the homepage after completing the quiz if I wish to repeat the quiz with different answers. | :--- | :--- |
+| To feel secure in the knowledge that my recommended organisation is a legitimate,  registered charity. | All Charities have been thoroughly researched and we have ensured that each charity is currently running and is registered on the relevent governments charity register.   | [Charity Research Spreadsheet](https://docs.google.com/spreadsheets/d/1PVfykTEjhAZT__f2wiTC8DxzqeNkVgD_EtOPIMHBkMw/edit?usp=sharing) |
+| To  be able to easily navigate back to the homepage after completing the quiz if I wish to repeat the quiz with different answers. | Each page contains the navbar that allows the user to redirect to the home page when ready. | :--- |
 | To have a means of learning more about Earth Day, and its theme for 2022, as well as a resource for discovering more organisations that work in these areas.
- | :--- | :--- |
+ | A link to the official Earth Day website is included in the information section of the home page. | [Earth Day Site Link](readme/testing/earth-day-link.png) |
 
 `Returning Visitors`
 

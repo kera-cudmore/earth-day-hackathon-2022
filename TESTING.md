@@ -39,15 +39,14 @@ We have also used WAVE to check the accessibility of our site, together with W3 
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
 
-[Index Page]
-[Climate Change Page]
-[Conservation Restoration Page]
-[End Plastic Page]
-[Environmental Literacy Page]
-[Food & Environment Page]
-[404 Page](readme/testing/w3-404.png)
-
-[Style.css]
+* [Index Page]
+* [Climate Change Page]
+* [Conservation Restoration Page]
+* [End Plastic Page]
+* [Environmental Literacy Page]
+* [Food & Environment Page]
+* [404 Page](readme/testing/w3-404.png)
+* [Style.css]
 
 - - -
 
@@ -55,8 +54,8 @@ We have also used WAVE to check the accessibility of our site, together with W3 
 
 [jshint](https://jshint.com/) was used to validate the JavaScript.
 
-[script.js]
-[sendEmail.js]
+* [script.js]
+* [sendEmail.js]
 
 - - -
 
@@ -66,23 +65,23 @@ We used Lighthouse within the Chrome Developer Tools to test the performance, ac
 
 ### Desktop Results
 
-[Index Page]
-[Climate Change Page]
-[Conservation Restoration Page]
-[End Plastic Page]
-[Environmental Literacy Page]
-[Food & Environment Page]
-[404 Page]
+* [Index Page]
+* [Climate Change Page]
+* [Conservation Restoration Page]
+* [End Plastic Page]
+* [Environmental Literacy Page]
+* [Food & Environment Page]
+* [404 Page]
 
 ### Mobile Results
 
-[Index Page]
-[Climate Change Page]
-[Conservation Restoration Page]
-[End Plastic Page]
-[Environmental Literacy Page]
-[Food & Environment Page]
-[404 Page]
+* [Index Page]
+* [Climate Change Page]
+* [Conservation Restoration Page]
+* [End Plastic Page]
+* [Environmental Literacy Page]
+* [Food & Environment Page]
+* [404 Page]
 
 - - -
 

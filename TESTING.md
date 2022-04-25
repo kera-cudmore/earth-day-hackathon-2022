@@ -467,6 +467,14 @@ Google Chrome on Mac and Windows, Safari
 
 ### Known Bugs
 
+| Known Bug No | Bug Issue | Plan to Resolve |
+| :--- | :--- | :--- |
+| :--- | :--- | :--- |
+
 ### Solved Bugs
+
+| Bug No | Bug Issue | How Resolved |
+| :--- | :--- | :--- |
+| :--- | :--- | :--- |
 
 Back to [README.md](README.md)

@@ -6,7 +6,7 @@ Charity Earth - Tell us what you value - The fun way to discover new environment
 
 Don't have any spare funds but still want to contribute? Select to donate your time instead! Want to donate to a specific area of the UK? We can help you find the right charity for that area.
 
-Add site responsive screenshot here
+![Charity Earth Responsive Image](assets/images/charity-earth-responsive.png)
 
 Visit the deployed site: [Charity Earth](https://kera-cudmore.github.io/earth-day-hackathon-2022/)
 
@@ -162,7 +162,11 @@ The 404 page lets the user know that there has been an error and gives them the 
 
     ![Favicon](readme/favicon.png)
 
-  * A footer. The footer contains links to the various sections of the site for ease of naviagation.
+  * A navbar. This allows the user to easily navigate through the site. On mobile devices the navbar collapses down into a toggle navbar.
+
+    ![Navbar](readme/navbar.png)
+
+  * A footer. The footer contains links to the the teams GitHub and Linked In accounts.
 
     ![Footer image](readme/footer.png)
 
@@ -255,10 +259,17 @@ Please view [Testing.md](TESTING.md) for the testing documentation.
 
 ### Content
 
+The content for the site was created by the team. Biographies for each charity were taken from the charities website.
+
 ### Media
 
 * [Header Image](https://unsplash.com/photos/0DtcZKzrP6Y) used on the index page and 404 page
 * [Logo Image](https://pxhere.com/en/photo/1093799)
+* [additional-1](https://unsplash.com/photos/RUqoVelx59I)
+* [additional-2](https://unsplash.com/photos/WJkc3xZjSXw)
+* [additional-3](https://unsplash.com/photos/9UkTV-18AeM)
+* [additional-4](https://unsplash.com/photos/qTyR49889Ck)
+
 
 * All Charity Logo images were taken from each charities websites.
 

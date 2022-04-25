@@ -19,7 +19,7 @@
     <meta property="og:description"
         content="Charity Earth - Tell us what you value - The fun way to discover new environmental charities!
     Take a short quiz and based on your areas of interest we will suggest a charity that would love a donation from you." />
-    <meta name="image" property="og:image" content="URL TO IMAGE" />
+    <meta name="image" property="og:image" content="assets/images/charity-earth-responsive.png" />
     <!-- URL of image to be displayed when your site is linked to -->
     <meta property="og:image:alt" content="Charity Earth site shown on a variety of devices" />
     <meta property="og:url" content="https://kera-cudmore.github.io/earth-day-hackathon-2022/" />
@@ -89,16 +89,22 @@
             <div id="quiz-div-0" class="quiz-div">
                 <form id="location-selection-form">
                     <p>Choose your country, and lets get started!</p>
+                    <br>
                     <input type="radio" id="scotland" name="location-radio" value="scotland">
                     <label for="scotland">Scotland</label>
+                    <br>
                     <input type="radio" id="wales" name="location-radio" value="wales">
                     <label for="wales">Wales</label>
+                    <br>
                     <input type="radio" id="ireland" name="location-radio" value="ireland">
                     <label for="ireland">Republic of Ireland</label>
+                    <br>
                     <input type="radio" id="england" name="location-radio" value="england">
                     <label for="england">England</label>
-                    <input type="radio" id="northern-ireland" name="location-radio" value="northern-ireland">
+                    <br>
+                    <input type="radio" id="northern-ireland" name="location-radio" value="nireland">
                     <label for="northern-ireland">Northern Ireland</label>
+                    <br>
                 </form>
                 <button class="start-button" data-type="button" id="location-selection-button">
                     Start the Quiz!
@@ -232,7 +238,9 @@
                 </form>
                 <button data-type="button" id="tiebreaker-button">Next</button>
             </div>
-            <a href="" id="results-link" class="hidden"></a>
+            <form id="results-link"class = hidden>
+                <button type="submit">Click for your results!</button>
+            </form>
         </div>
     </section>
 

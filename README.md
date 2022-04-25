@@ -6,7 +6,7 @@ Charity Earth - Tell us what you value - The fun way to discover new environment
 
 Don't have any spare funds but still want to contribute? Select to donate your time instead! Want to donate to a specific area of the UK? We can help you find the right charity for that area.
 
-Add site responsive screenshot here
+![Charity Earth Responsive Image](assets/images/charity-earth-responsive.png)
 
 Visit the deployed site: [Charity Earth](https://kera-cudmore.github.io/earth-day-hackathon-2022/)
 

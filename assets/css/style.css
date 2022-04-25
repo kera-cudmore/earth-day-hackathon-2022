@@ -56,6 +56,10 @@ h2 {
     letter-spacing: 1px;
 }
 
+h3 {
+    color: var(--dark-green);
+}
+
 a {
     text-decoration: none;
 }
@@ -207,7 +211,7 @@ header {
 /*----FIXED NAV----*/
 
 .fixed {
-    background-color: #905a39e1;
+    background-color: var(--teal);
     top: 0;
     left: 0;
     width: 100%;
@@ -256,11 +260,12 @@ header {
 .box img {
     width: 100%;
     height: auto;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .further-info {
-    margin-bottom: 5px;
+    color: var(--dark-green);
+    margin-bottom: 10px;
 }
 
 
@@ -349,7 +354,7 @@ footer {
     text-align: center;
     margin-top: 42px;
     overflow: hidden;
-    background-color: #905A39;
+    background-color: var(--emerald-green);
     min-height: auto;
 }
 
@@ -499,6 +504,7 @@ footer {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* small phones: from 480px to 767x */
 @media only screen and (max-width: 767px) {
 
@@ -514,6 +520,9 @@ footer {
 =======
 /* small phones: from 346 to 480px */
 >>>>>>> 61b71b155bb6e61b30953548cafdb794923d62f3
+=======
+/* small phones: from 376 to 480px */
+>>>>>>> 09a555195e5e02a2ebc035847c298e6eb0414559
 @media only screen and (max-width: 480px) {
     body {
         font-size: 16px;
@@ -521,7 +530,7 @@ footer {
 
     h1 {
         font-size: 1.75rem;
-        margin: 20px 0;
+        margin-top: 20px 0;
     }
 
     h5 {
@@ -536,17 +545,23 @@ footer {
         padding: 0 25px;
     }
 
-    .site-description {
-        margin-bottom: 30px;
-    }
-
     .btn {
         margin: 10px;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+    font-size: 0.75rem;
     }
 
     .logo {
         height: 50px;
         margin-top: 25px;
+    }
+
+    .site-description {
+        font-size: 0.9rem;
+        margin-bottom: 30px;
     }
 
     form {
@@ -564,11 +579,23 @@ footer {
     }
 }
 
-/* small phones: from 0 to 345px */
-@media only screen and (max-width: 345px) {
+/* small phones: from 0 to 375px */
+@media only screen and (max-width: 376px) {
+
+    h1 {
+        font-size: 1.5rem;
+        margin-top: 100px;
+    }
 
     .main-nav li a:link,
     .main-nav li a:visited {
     font-size: 0.7rem;
-  }
+    }
+
+    .site-description {
+        font-size: .75rem;
+        margin-bottom: 30px;
+    }
+
+    
 }

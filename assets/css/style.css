@@ -29,6 +29,7 @@ body {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
 }
 
 /*-------------------------------------*/
@@ -262,6 +263,7 @@ header {
     margin-bottom: 20px;
 }
 
+
 .further-info {
     color: var(--dark-green);
     margin-bottom: 10px;
@@ -414,6 +416,7 @@ footer {
     padding-top: 2rem;
     padding-bottom: 4rem;
 }
+
 
 /*-------------------------------------*/
 /* MEDIA QUERIES */

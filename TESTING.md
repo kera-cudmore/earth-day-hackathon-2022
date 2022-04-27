@@ -46,7 +46,7 @@ We have also used WAVE to check the accessibility of our site, together with W3 
 * [Environmental Literacy Page]
 * [Food & Environment Page]
 * [404 Page](readme/testing/w3-404.png)
-* [Style.css]
+* [Style.css](readme/testing/w3-css.png)
 
 - - -
 

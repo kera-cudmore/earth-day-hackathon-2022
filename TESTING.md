@@ -42,7 +42,7 @@ We have also used WAVE to check the accessibility of our site, together with W3 
 
 * [Index Page]
 * [Climate Change Page]
-* [Conservation Restoration Page]
+* [Conservation Restoration Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkera-cudmore.github.io%2Fearth-day-hackathon-2022%2Fconservationrestoration.html)
 * [End Plastic Page]
 * [Environmental Literacy Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkera-cudmore.github.io%2Fearth-day-hackathon-2022%2Fenvironmentalliteracy.html)
 * [Food & Environment Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkera-cudmore.github.io%2Fearth-day-hackathon-2022%2Ffoodenvironment)

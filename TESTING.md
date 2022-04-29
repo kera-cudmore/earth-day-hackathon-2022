@@ -14,6 +14,7 @@ Back to [README.md](README.md)
   * [W3C Validator](#W3C-Validator)
   * [JavaScript Validator](#JavaScript-Validator)
   * [Lighthouse](#Lighthouse)
+  * [WAVE](#WAVE)
 * [MANUAL TESTING](#MANUAL-TESTING)
   * [Testing User Stories](#Testing-User-Stories)
   * [Full Testing](#Full-Testing)
@@ -82,6 +83,20 @@ We used Lighthouse within the Chrome Developer Tools to test the performance, ac
 * [Environmental Literacy Page]
 * [Food & Environment Page]
 * [404 Page](readme/testing/lighthouse-mobile-404.png)
+
+- - -
+
+### WAVE
+
+Each page was run through the Web Accessibility Evalulation Tool (WAVE).
+
+* [Index Page]
+* [Climate Change Page](readme/testing/wave-climatechange.png)
+* [Conservation Restoration Page]
+* [End Plastic Page]
+* [Environmental Literacy Page]
+* [Food & Environment Page]
+* [404 Page](readme/testing/wave-404.png)
 
 - - -
 

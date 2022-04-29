@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("quiz-five-button").addEventListener("click", themeSubmit);
     document.getElementById("donation-type-button").addEventListener("click", donationTypeSubmit);
     document.getElementById("tiebreaker-button").addEventListener("click", breakTie);
-})
+});
 
 //variable set by country selection question, will be used to generate final results
 let country = "test";
@@ -47,18 +47,18 @@ let country = "test";
 //object that will be populated with 'scores' from theme questions, in the form ['a', 'd', 'c'.....etc]
 // letters correspond to themes. a ->"climatechange", b ->"conservationrestoration",
 // c -> "endplastic", d ->"environmentalliteracy", e ->"foodenvironment"
-let scorecard = {a:0, b:0, c:0, d:0, e:0}
+let scorecard = {a:0, b:0, c:0, d:0, e:0};
 
 // PLACEHOLDER THEME
-let theme = "climatechange" 
+let theme = "climatechange" ;
 
 // stageTracker keeps count of the "stage" of the quiz. 0 is location question, 1 is the first quiz question, 2 is second quiz question etc.
 // is augmented by "+1" after each answer is submitted, moving the quiz to the next stage.
 let stageTracker = 0;
 
-let themeArray = ["climatechange","conservationrestoration","endplastic","environmentalliteracy","foodenvironment"]
+let themeArray = ["climatechange","conservationrestoration","endplastic","environmentalliteracy","foodenvironment"];
 
-let scoreArray = []
+let scoreArray = [];
 
 let tiebreakerArray = [];
 
@@ -70,7 +70,7 @@ let radioCheckToggle = false;
 
 // called when 'start quiz' button is clicked, sets country variable to answer selected by radio buttons
 function locationSubmit() {
-    let locationSelector = document.forms[0]
+    let locationSelector = document.forms[0];
     for (i=0; i< locationSelector.length; i++){
         if (locationSelector[i].checked){
             country = locationSelector[i].value;
@@ -79,7 +79,7 @@ function locationSubmit() {
     console.log(country);
     if (verifyRadioCheck()) {
         stageTracker +=1;
-        console.log(`Stage tracker No:${stageTracker}`)
+        console.log(`Stage tracker No:${stageTracker}`);
         nextStage();
     }
 }
@@ -88,8 +88,8 @@ function locationSubmit() {
 function themeSubmit() {
     if (verifyRadioCheck()) {
         stageTracker +=1;
-        console.log(scorecard)
-        console.log(`Stage tracker No:${stageTracker}`)
+        console.log(scorecard);
+        console.log(`Stage tracker No:${stageTracker}`);
         nextStage();
     }
 
@@ -98,7 +98,7 @@ function themeSubmit() {
 //called when users click to submit an answer for the donation type question.
 function donationTypeSubmit() {
     if (verifyRadioCheck()) {
-        let donationTypeSelector = document.forms[6]
+        let donationTypeSelector = document.forms[6];
         for (i=0; i< donationTypeSelector.length; i++){
             if (donationTypeSelector[i].checked){
                 donationType = donationTypeSelector[i].value;
@@ -106,11 +106,11 @@ function donationTypeSubmit() {
             }
         }
         stageTracker +=1;
-        console.log(`Stage tracker No:${stageTracker}`)
+        console.log(`Stage tracker No:${stageTracker}`);
         //generateUrl(); //REMOVE THIS LATER
         checkForTie();
         if (tieCheck  === 1){
-            console.log("tiecheck1 test")
+            console.log("tiecheck1 test");
             for (i=0; i < 5; i++) {
                 document.getElementById(`tiebreaker-div-${i}`).removeAttribute("class");
                 console.log("removed hidden class");
@@ -118,12 +118,12 @@ function donationTypeSubmit() {
             nextStage(); 
         } else if(tieCheck === 2){
             for (tiedScore in tiebreakerArray){
-                document.getElementById(`tiebreaker-div-${tiebreakerArray[tiedScore]}`).removeAttribute("class")
+                document.getElementById(`tiebreaker-div-${tiebreakerArray[tiedScore]}`).removeAttribute("class");
             }
             nextStage();
         } else {
             document.getElementById("quiz-div-6").setAttribute("class","hidden");
-            theme = themeArray[highScoreIndex]
+            theme = themeArray[highScoreIndex];
             generateUrl();
         }
     }
@@ -133,21 +133,21 @@ function donationTypeSubmit() {
 // called whenever answers are submitted to verify that a radio button has been checked for the current section.
 // if it has, stageTracker is augmented by 1 and next stage is called, if not User is given an alert to check an answer
 function verifyRadioCheck() {
-    let currentForm = document.forms[stageTracker]
+    let currentForm = document.forms[stageTracker];
     for (i=0; i< currentForm.length; i++){
         if (currentForm[i].checked){
             if (currentForm[i].value.length === 1) {
                 let score = currentForm[i].value;
                 scorecard[score]++;
             }
-            radioCheckToggle = true  
+            radioCheckToggle = true;
         }
     }
     if (radioCheckToggle === true){
         radioCheckToggle = false;
-        return true
+        return true;
     }else {
-        alert("Dont forget to select an answer!")
+        alert("Dont forget to select an answer!");
     }
 }
 
@@ -156,19 +156,19 @@ function verifyRadioCheck() {
 //if no tie then proceeds to offer user a link to their charity reccomendation
 function checkForTie() {
     scoreArray = Object.values(scorecard);
-    console.log(scoreArray)
+    console.log(scoreArray);
     let highestScore = Math.max.apply(0, scoreArray);
-    console.log(`highest score:${highestScore}`)
+    console.log(`highest score:${highestScore}`);
     if (highestScore === 1) {
         tieCheck = 1;
     }else if(highestScore === 2) {
         for (i=0; i<scoreArray.length; i++) {
             if (scoreArray[i] === 2) {
-                tiebreakerArray.push(i)
+                tiebreakerArray.push(i);
             }
         }
-        console.log("tiebreakerArray")
-        console.log(tiebreakerArray)
+        console.log("tiebreakerArray");
+        console.log(tiebreakerArray);
         if (tiebreakerArray.length === 2){
             tieCheck = 2;
         }else {
@@ -178,7 +178,7 @@ function checkForTie() {
         tieCheck = 3;
         for (i=0; i<scoreArray.length; i++) {
             if (scoreArray[i] === 3) {
-                highScoreIndex = i
+                highScoreIndex = i;
             }
         }
     }
@@ -188,8 +188,8 @@ function checkForTie() {
 // called after successful verifyRadioCheck, hides previous stage of quiz, shows new stage
 function nextStage() {
     let previousStage = stageTracker - 1;
-    console.log(previousStage)
-    console.log(stageTracker)
+    console.log(previousStage);
+    console.log(stageTracker);
     document.getElementById(`quiz-div-${stageTracker}`).removeAttribute("class");
     document.getElementById(`quiz-div-${previousStage}`).setAttribute("class","hidden");
     
@@ -197,14 +197,14 @@ function nextStage() {
 
 
 function generateUrl() {
-    document.getElementById("results-link").setAttribute(`action`,`https://kera-cudmore.github.io/earth-day-hackathon-2022/${theme}#${country}-${donationType}`)
+    document.getElementById("results-link").setAttribute(`action`,`https://kera-cudmore.github.io/earth-day-hackathon-2022/${theme}#${country}-${donationType}`);
     document.getElementById("results-link").removeAttribute("class");
     
 }
 
 function breakTie() {
     if(verifyRadioCheck()) {
-        let currentForm = document.forms[stageTracker]
+        let currentForm = document.forms[stageTracker];
         for (i=0; i< currentForm.length; i++){
             if (currentForm[i].checked){
                 theme = themeArray[i]; 

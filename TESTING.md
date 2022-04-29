@@ -119,11 +119,12 @@ The alerts that are raised on each page are to do with having adjacent links goi
 
 `Returning Visitors`
 
+*We hope to implement features in a future implementation that will address the requirements of returning visitiors.*
+
 | Goals | How are they achieved? | Images |
 | :--- | :--- | :--- |
-| To be able to access a full list of the charities for my area of choice, without having to navigate the quiz repeatedly to get different results. | :--- | :--- |
-| To have different quiz questions presented to me based on my earlier choices in the quiz, creating a sense a variety that encourages repeat use.
- | :--- | :--- |
+| To be able to access a full list of the charities for my area of choice, without having to navigate the quiz repeatedly to get different results. | To Be Implemented | - |
+| To have different quiz questions presented to me based on my earlier choices in the quiz, creating a sense a variety that encourages repeat use. | To Be Implemented | - |
 
 - - -
 
@@ -141,7 +142,7 @@ Google Chrome on Mac and Windows, Safari
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| NAVBAR |  |  |  |  |
+| **NAVBAR** |  |  |  |  |
 |  |  |  |  |  |
 | Logo image link | When clicked you are redirected to the home page | Clicked Logo | Redirected to home page | Pass|
 | Navbar home link | When clicked you are redirected to the home page | Clicked link | Redirected to home page | Pass |
@@ -153,18 +154,18 @@ Google Chrome on Mac and Windows, Safari
 | Navbar contact us link | When clicked you are redirected to the Contact Us section of the home page | Clicked link | Redirected to contact us section of home page | Pass |
 | Navbar contact us link - hover | When hovered over a line will appear under the link | Hovered over link | Line appeared under link | Pass |
 |  |  |  |  |  |
-| HERO IMAGE BUTTONS |  |  |  |  |
+| **HERO IMAGE BUTTONS** |  |  |  |  |
 |  |  |  |  |  |
 | Take quiz button | Directs to quiz section of home page | Clicked button | Directed to quiz section of home page | Pass |
 | Take quiz button - hover | When hovered over button changes colour | Hovered over button | Button changes colour | Pass |
 | Show me more button | Directs to the information section of home page | Clicked button | Taken to information section of home page | Pass |
 | Show me more button - hover | When hovered over button changes colour | Hovered over button | Button changes colour | Pass |
 |  |  |  |  |  |
-| QUIZ |  |  |  |  |
+| **QUIZ** |  |  |  |  |
 |  |  |  |  |  |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
-| INFORMATION SECTION - FIND OUT MORE |  |  |  |  |
+| **INFORMATION SECTION - FIND OUT MORE** |  |  |  |  |
 |  |  |  |  |  |
 | Earth Day 2022 Image | When clicked you are redirected to the page in a new tab | Clicked image | Page opens in a new tab | Pass |
 | Earth Day 2022 Text | When clicked you are redirected to the page in a new tab | Clicked text | Page opens in a new tab | Pass |
@@ -175,7 +176,7 @@ Google Chrome on Mac and Windows, Safari
 | BBC Food Calculator Image | When clicked you are redirected to the page in a new tab | Clicked image | Page opens in a new tab | Pass |
 | BBC Food Calculator Text | When clicked you are redirected to the page in a new tab | Clicked text | Page opens in a new tab | Pass |
 |  |  |  |  |  |
-| CONTACT US |  |  |  |  |
+| **CONTACT US** |  |  |  |  |
 |  |  |  |  |  |
 | Submit Form Button - No information entered by user | The form will direct the user to fill in the name field | Clicked submit button with no information filled in | Asked to fill in name field | Pass |
 | Submit Form Button - Some information entered | User will be directed to fill in the fields they have left blank | Filled in only part of the form | Asked to fill in the missing fields | Pass |
@@ -185,7 +186,7 @@ Google Chrome on Mac and Windows, Safari
 | Email input - focus | When input field is clicked on the border of the input field will change colour | Clicked on input field | Border changed colour | Pass |
 | Text Area - focus |When text area is clicked on the border of the text area will change colour | Clicked on text area | Border changed colour | Pass |
 |  |  |  |  |  |
-| FOOTER |  |  |  |  |
+| **FOOTER** |  |  |  |  |
 |  |  |  |  |  |
 | Alaa GitHub Icon | When clicked you will be redirected to Alaas GitHub profile in a new tab | Clicked icon | Profile opened in a new tab | Pass |
 | Alaa GitHub Icon - hover | When hovered over a line will appear under the icon | Hovered over icon | Line appeared | Pass |
@@ -216,7 +217,7 @@ Google Chrome on Mac and Windows, Safari
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| NAVBAR |  |  |  |  |
+| **NAVBAR** |  |  |  |  |
 |  |  |  |  |  |
 | Logo image link | When clicked you are redirected to the home page | Clicked Logo | Redirected to home page | Pass|
 | Navbar home link | When clicked you are redirected to the home page | Clicked link | Redirected to home page | Pass |
@@ -228,7 +229,7 @@ Google Chrome on Mac and Windows, Safari
 | Navbar contact us link | When clicked you are redirected to the Contact Us section of the home page | Clicked link | Redirected to contact us section of home page | Pass |
 | Navbar contact us link - hover | When hovered over a line will appear under the link | Hovered over link | Line appeared under link | Pass |
 |  |  |  |  |  |
-| FOOTER |  |  |  |  |
+| **FOOTER** |  |  |  |  |
 |  |  |  |  |  |
 | Alaa GitHub Icon | When clicked you will be redirected to Alaas GitHub profile in a new tab | Clicked icon | Profile opened in a new tab | Pass |
 | Alaa GitHub Icon - hover | When hovered over a line will appear under the icon | Hovered over icon | Line appeared | Pass |
@@ -259,7 +260,7 @@ Google Chrome on Mac and Windows, Safari
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| NAVBAR |  |  |  |  |
+| **NAVBAR** |  |  |  |  |
 |  |  |  |  |  |
 | Logo image link | When clicked you are redirected to the home page | Clicked Logo | Redirected to home page | Pass|
 | Navbar home link | When clicked you are redirected to the home page | Clicked link | Redirected to home page | Pass |
@@ -271,7 +272,7 @@ Google Chrome on Mac and Windows, Safari
 | Navbar contact us link | When clicked you are redirected to the Contact Us section of the home page | Clicked link | Redirected to contact us section of home page | Pass |
 | Navbar contact us link - hover | When hovered over a line will appear under the link | Hovered over link | Line appeared under link | Pass |
 |  |  |  |  |  |
-| FOOTER |  |  |  |  |
+| **FOOTER** |  |  |  |  |
 |  |  |  |  |  |
 | Alaa GitHub Icon | When clicked you will be redirected to Alaas GitHub profile in a new tab | Clicked icon | Profile opened in a new tab | Pass |
 | Alaa GitHub Icon - hover | When hovered over a line will appear under the icon | Hovered over icon | Line appeared | Pass |
@@ -302,7 +303,7 @@ Google Chrome on Mac and Windows, Safari
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| NAVBAR |  |  |  |  |
+| **NAVBAR** |  |  |  |  |
 |  |  |  |  |  |
 | Logo image link | When clicked you are redirected to the home page | Clicked Logo | Redirected to home page | Pass|
 | Navbar home link | When clicked you are redirected to the home page | Clicked link | Redirected to home page | Pass |
@@ -312,8 +313,9 @@ Google Chrome on Mac and Windows, Safari
 | Navbar information link | When clicked you are redirected to the Information section of the home page | Clicked link | Redirected to information section of home page | Pass |
 | Navbar information link - hover | When hovered over a line will appear under the link | Hovered over link | Line appeared under link | Pass |
 | Navbar contact us link | When clicked you are redirected to the Contact Us section of the home page | Clicked link | Redirected to contact us section of home page | Pass |
-| Navbar contact us link - hover | When hovered over a line will appear under the link | Hovered over link | Line appeared under link | Pass ||  |  |  |  |  |
-| FOOTER |  |  |  |  |
+| Navbar contact us link - hover | When hovered over a line will appear under the link | Hovered over link | Line appeared under link | Pass |
+|  |  |  |  |  |
+| **FOOTER** |  |  |  |  |
 |  |  |  |  |  |
 | Alaa GitHub Icon | When clicked you will be redirected to Alaas GitHub profile in a new tab | Clicked icon | Profile opened in a new tab | Pass |
 | Alaa GitHub Icon - hover | When hovered over a line will appear under the icon | Hovered over icon | Line appeared | Pass |
@@ -344,7 +346,7 @@ Google Chrome on Mac and Windows, Safari
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| NAVBAR |  |  |  |  |
+| **NAVBAR** |  |  |  |  |
 |  |  |  |  |  |
 | Logo image link | When clicked you are redirected to the home page | Clicked Logo | Redirected to home page | Pass|
 | Navbar home link | When clicked you are redirected to the home page | Clicked link | Redirected to home page | Pass |
@@ -354,8 +356,9 @@ Google Chrome on Mac and Windows, Safari
 | Navbar information link | When clicked you are redirected to the Information section of the home page | Clicked link | Redirected to information section of home page | Pass |
 | Navbar information link - hover | When hovered over a line will appear under the link | Hovered over link | Line appeared under link | Pass |
 | Navbar contact us link | When clicked you are redirected to the Contact Us section of the home page | Clicked link | Redirected to contact us section of home page | Pass |
-| Navbar contact us link - hover | When hovered over a line will appear under the link | Hovered over link | Line appeared under link | Pass ||  |  |  |  |  |
-| FOOTER |  |  |  |  |
+| Navbar contact us link - hover | When hovered over a line will appear under the link | Hovered over link | Line appeared under link | Pass |
+|  |  |  |  |  |
+| **FOOTER** |  |  |  |  |
 |  |  |  |  |  |
 | Alaa GitHub Icon | When clicked you will be redirected to Alaas GitHub profile in a new tab | Clicked icon | Profile opened in a new tab | Pass |
 | Alaa GitHub Icon - hover | When hovered over a line will appear under the icon | Hovered over icon | Line appeared | Pass |
@@ -386,7 +389,7 @@ Google Chrome on Mac and Windows, Safari
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| NAVBAR |  |  |  |  |
+| **NAVBAR** |  |  |  |  |
 |  |  |  |  |  |
 | Logo image link | When clicked you are redirected to the home page | Clicked Logo | Redirected to home page | Pass|
 | Navbar home link | When clicked you are redirected to the home page | Clicked link | Redirected to home page | Pass |
@@ -396,8 +399,9 @@ Google Chrome on Mac and Windows, Safari
 | Navbar information link | When clicked you are redirected to the Information section of the home page | Clicked link | Redirected to information section of home page | Pass |
 | Navbar information link - hover | When hovered over a line will appear under the link | Hovered over link | Line appeared under link | Pass |
 | Navbar contact us link | When clicked you are redirected to the Contact Us section of the home page | Clicked link | Redirected to contact us section of home page | Pass |
-| Navbar contact us link - hover | When hovered over a line will appear under the link | Hovered over link | Line appeared under link | Pass ||  |  |  |  |  |
-| FOOTER |  |  |  |  |
+| Navbar contact us link - hover | When hovered over a line will appear under the link | Hovered over link | Line appeared under link | Pass |
+|  |  |  |  |  |
+| **FOOTER** |  |  |  |  |
 |  |  |  |  |  |
 | Alaa GitHub Icon | When clicked you will be redirected to Alaas GitHub profile in a new tab | Clicked icon | Profile opened in a new tab | Pass |
 | Alaa GitHub Icon - hover | When hovered over a line will appear under the icon | Hovered over icon | Line appeared | Pass |
@@ -428,7 +432,7 @@ Google Chrome on Mac and Windows, Safari
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| NAVBAR |  |  |  |  |
+| **NAVBAR** |  |  |  |  |
 |  |  |  |  |  |
 | Logo image link | When clicked you are redirected to the home page | Clicked Logo | Redirected to home page | Pass|
 | Navbar home link | When clicked you are redirected to the home page | Clicked link | Redirected to home page | Pass |
@@ -440,7 +444,7 @@ Google Chrome on Mac and Windows, Safari
 | Navbar contact us link | When clicked you are redirected to the Contact Us section of the home page | Clicked link | Redirected to contact us section of home page | Pass |
 | Navbar contact us link - hover | When hovered over a line will appear under the link | Hovered over link | Line appeared under link | Pass |
 |  |  |  |  |  |
-| PAGE BUTTONS |  |  |  |  |
+| **PAGE BUTTONS** |  |  |  |  |
 |  |  |  |  |  |
 | Go back home button | When clicked you are redirected to the home page | Clicked button | Redirected to home page | Pass |
 | Go back home button - hover | When hovered over the button will change colour | Hovered over button | Button changed colour | Pass |
@@ -451,7 +455,7 @@ Google Chrome on Mac and Windows, Safari
 | Contact us button | When clicked you are redirected to the contact us section on the home page | Clicked button | Redirected to the contact us section of the home page | Pass |
 | Contact us button - hover | When hovered over the button will change colour | Hovered over button | Button changed colour | Pass |
 |  |  |  |  |  |
-| FOOTER |  |  |  |  |
+| **FOOTER** |  |  |  |  |
 |  |  |  |  |  |
 | Alaa GitHub Icon | When clicked you will be redirected to Alaas GitHub profile in a new tab | Clicked icon | Profile opened in a new tab | Pass |
 | Alaa GitHub Icon - hover | When hovered over a line will appear under the icon | Hovered over icon | Line appeared | Pass |

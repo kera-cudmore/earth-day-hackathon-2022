@@ -90,12 +90,14 @@ We used Lighthouse within the Chrome Developer Tools to test the performance, ac
 
 Each page was run through the Web Accessibility Evalulation Tool (WAVE).
 
+The alerts that are raised on each page are to do with having adjacent links going to the same URL. This is due to having the one transparent nav on the hero image and then the coloured navbar that appears when you scroll past the hero image.
+
 * [Index Page]
 * [Climate Change Page](readme/testing/wave-climatechange.png)
-* [Conservation Restoration Page]
-* [End Plastic Page]
-* [Environmental Literacy Page]
-* [Food & Environment Page]
+* [Conservation Restoration Page](readme/testing/wave-conservation.png)
+* [End Plastic Page](readme/testing/wave-endplastic.png)
+* [Environmental Literacy Page](readme/testing/wave-envirolit.png)
+* [Food & Environment Page](readme/testing/wave-foodenviro.png)
 * [404 Page](readme/testing/wave-404.png)
 
 - - -

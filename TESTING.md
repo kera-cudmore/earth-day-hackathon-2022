@@ -44,9 +44,9 @@ We have also used WAVE to check the accessibility of our site, together with W3 
 * [Climate Change Page]
 * [Conservation Restoration Page]
 * [End Plastic Page]
-* [Environmental Literacy Page]
-* [Food & Environment Page]
-* [404 Page](readme/testing/w3-404.png)
+* [Environmental Literacy Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkera-cudmore.github.io%2Fearth-day-hackathon-2022%2Fenvironmentalliteracy.html)
+* [Food & Environment Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkera-cudmore.github.io%2Fearth-day-hackathon-2022%2Ffoodenvironment)
+* [404 Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkera-cudmore.github.io%2Fearth-day-hackathon-2022%2F404.html)
 * [Style.css](readme/testing/w3-css.png)
 
 - - -
@@ -70,9 +70,9 @@ We used Lighthouse within the Chrome Developer Tools to test the performance, ac
 * [Climate Change Page]
 * [Conservation Restoration Page]
 * [End Plastic Page]
-* [Environmental Literacy Page]
+* [Environmental Literacy Page](readme/testing/lighthouse/lighthouse-desktop-enviroliteracy.png)
 * [Food & Environment Page]
-* [404 Page](readme/testing/lighthouse-desktop-404.png)
+* [404 Page](readme/testing/lighthouse/lighthouse-desktop-404.png)
 
 ### Mobile Results
 
@@ -80,9 +80,9 @@ We used Lighthouse within the Chrome Developer Tools to test the performance, ac
 * [Climate Change Page]
 * [Conservation Restoration Page]
 * [End Plastic Page]
-* [Environmental Literacy Page]
+* [Environmental Literacy Page](readme/testing/lighthouse/lighthouse-mobile-enviroliteracy.png)
 * [Food & Environment Page]
-* [404 Page](readme/testing/lighthouse-mobile-404.png)
+* [404 Page](readme/testing/lighthouse/lighthouse-mobile-404.png)
 
 - - -
 
@@ -93,12 +93,12 @@ Each page was run through the Web Accessibility Evalulation Tool (WAVE).
 The alerts that are raised on each page are to do with having adjacent links going to the same URL. This is due to having the one transparent nav on the hero image and then the coloured navbar that appears when you scroll past the hero image.
 
 * [Index Page]
-* [Climate Change Page](readme/testing/wave-climatechange.png)
-* [Conservation Restoration Page](readme/testing/wave-conservation.png)
-* [End Plastic Page](readme/testing/wave-endplastic.png)
-* [Environmental Literacy Page](readme/testing/wave-envirolit.png)
-* [Food & Environment Page](readme/testing/wave-foodenviro.png)
-* [404 Page](readme/testing/wave-404.png)
+* [Climate Change Page](readme/testing/wave/wave-climatechange.png)
+* [Conservation Restoration Page](readme/testing/wave/wave-conservation.png)
+* [End Plastic Page](readme/testing/wave/wave-endplastic.png)
+* [Environmental Literacy Page](readme/testing/wave/wave-envirolit.png)
+* [Food & Environment Page](readme/testing/wave/wave-foodenviro.png)
+* [404 Page](readme/testing/wave/wave-404.png)
 
 - - -
 

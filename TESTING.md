@@ -63,6 +63,8 @@ We have also used WAVE to check the accessibility of our site, together with W3 
 
 We used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
 
+Overall, the lighthouse scores are very good, with one or two things that could be improved. A future implementation would be to convert all images to the webp format.
+
 ### Desktop Results
 
 * [Index Page](readme/testing/lighthouse/lighthouse-desktop-index.png)
@@ -91,7 +93,7 @@ Each page was run through the Web Accessibility Evalulation Tool (WAVE).
 
 The alerts that are raised on each page are to do with having adjacent links going to the same URL. This is due to having the one transparent nav on the hero image and then the coloured navbar that appears when you scroll past the hero image.
 
-* [Index Page]
+* [Index Page](readme/testing/wave/wave-index.png)
 * [Climate Change Page](readme/testing/wave/wave-climatechange.png)
 * [Conservation Restoration Page](readme/testing/wave/wave-conservation.png)
 * [End Plastic Page](readme/testing/wave/wave-endplastic.png)

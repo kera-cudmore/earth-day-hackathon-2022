@@ -315,18 +315,20 @@
                 </a>
             </div>
         </div>
-
     </section>
+
     <!--Contact Form-->
     <section class="contact-section" id="contact">
         <form onsubmit="return sendMail(this);">
             <h3 class="contact-heading">Get In Touch</h3>
-            <label for="name"></label>
-
+            <label for="name" hidden>Name:</label>
             <input name="name" id="name" type="text" class="contact-input" placeholder="Name" required />
-            <label for="email"></label>
+
+            <label for="email" hidden>Email:</label>
             <input name="email" id="email" type="email" class="contact-input" placeholder="Email" required />
-            <textarea name="message" class="contact-input" placeholder="Type your message here" required></textarea>
+
+            <label for="message" hidden>Message:</label>
+            <textarea name="message" id="message" class="contact-input" placeholder="Type your message here" required></textarea>
             <div class="submit-btn">
                 <input type="submit" value="SEND" />
             </div>

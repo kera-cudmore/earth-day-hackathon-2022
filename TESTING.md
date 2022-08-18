@@ -1,11 +1,9 @@
-
 # Charity Earth -  Testing
 
 ![Charity Earth Responsive](assets/images/charity-earth-responsive.png)
 
 Visit the deployed site: [Charity Earth](https://kera-cudmore.github.io/earth-day-hackathon-2022/index.html)
 
-Back to [README.md](README.md)
 - - -
 
 ## CONTENTS
@@ -40,13 +38,14 @@ We have also used WAVE to check the accessibility of our site, together with W3 
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
 
-* [Index Page]
-* [Climate Change Page]
+* [Index Page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkera-cudmore.github.io%2Fearth-day-hackathon-2022%2Findex.html)
+* [Climate Change Page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkera-cudmore.github.io%2Fearth-day-hackathon-2022%2Fclimatechange.html)
 * [Conservation Restoration Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkera-cudmore.github.io%2Fearth-day-hackathon-2022%2Fconservationrestoration.html)
-* [End Plastic Page]
+* [End Plastic Page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkera-cudmore.github.io%2Fearth-day-hackathon-2022%2Fendplastic.html)
 * [Environmental Literacy Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkera-cudmore.github.io%2Fearth-day-hackathon-2022%2Fenvironmentalliteracy.html)
 * [Food & Environment Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkera-cudmore.github.io%2Fearth-day-hackathon-2022%2Ffoodenvironment)
 * [404 Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkera-cudmore.github.io%2Fearth-day-hackathon-2022%2F404.html)
+
 * [Style.css](readme/testing/w3-css.png)
 
 - - -
@@ -66,22 +65,22 @@ We used Lighthouse within the Chrome Developer Tools to test the performance, ac
 
 ### Desktop Results
 
-* [Index Page]
-* [Climate Change Page]
-* [Conservation Restoration Page]
-* [End Plastic Page]
+* [Index Page](readme/testing/lighthouse/lighthouse-desktop-index.png)
+* [Climate Change Page](readme/testing/lighthouse/lighthouse-desktop-climatechange.png)
+* [Conservation Restoration Page](readme/testing/lighthouse/lighthouse-desktop-conservation.png)
+* [End Plastic Page](readme/testing/lighthouse/lighthouse-desktop-endplastic.png)
 * [Environmental Literacy Page](readme/testing/lighthouse/lighthouse-desktop-enviroliteracy.png)
-* [Food & Environment Page]
+* [Food & Environment Page](readme/testing/lighthouse/lighthouse-desktop-foodenvironment.png)
 * [404 Page](readme/testing/lighthouse/lighthouse-desktop-404.png)
 
 ### Mobile Results
 
-* [Index Page]
-* [Climate Change Page]
-* [Conservation Restoration Page]
-* [End Plastic Page]
+* [Index Page](readme/testing/lighthouse/lighthouse-mobile-index.png)
+* [Climate Change Page](readme/testing/lighthouse/lighthouse-mobile-climatechange.png)
+* [Conservation Restoration Page](readme/testing/lighthouse/lighthouse-mobile-conservation.png)
+* [End Plastic Page](readme/testing/lighthouse/lighthouse-mobile-endplastic.png)
 * [Environmental Literacy Page](readme/testing/lighthouse/lighthouse-mobile-enviroliteracy.png)
-* [Food & Environment Page]
+* [Food & Environment Page](readme/testing/lighthouse/lighthouse-mobile-foodenvironment.png)
 * [404 Page](readme/testing/lighthouse/lighthouse-mobile-404.png)
 
 - - -

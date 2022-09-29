@@ -220,7 +220,16 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 ### Deployment
 
-The site is deployed using GitHub Pages. Visit the deployed site [here.](https://kera-cudmore.github.io/earth-day-hackathon-2022/)
+The site is deployed using GitHub Pages. Visit the deployed site [here.](https://kera-cudmore.github.io/earth-day-hackathon-2022/) To deploy using GitHub pages:
+
+1. Login or Sign Up to GitHub.
+2. Open the project repository.
+3. Click on "Settings" on the navigation bar under the repository title.
+4. Click on "Pages" in the left hand navigation panel.
+5. Under "Source", choose which branch to deploy. This should be Main for newer repositories (older repositories may still use Master).
+6. Choose which folder to deploy from, usually "/root".
+7. Click "Save", then wait for it to be deployed. It can take some time for the page to be fully deployed.
+8. Your URL will be displayed above "Source".
 
 ### Local Development
 

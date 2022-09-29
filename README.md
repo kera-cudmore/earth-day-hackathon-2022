@@ -145,11 +145,19 @@ Wireframes were created for mobile, tablet and desktop using Balsamiq.
 
 The website is comprised of 7 pages, the index page, 5 charity themed pages and the 404 page.
 
-The index page is divided into sections, the hero image, the quiz, the information section and the contact section.
+The index page is divided into 4 sections, the hero image, the quiz, the information section and the contact section.
 
-The quiz is started when the user selects the location they wish to find a charity in. After the user submits this form and sets their location, they will be presented with their first multiple choice quiz question, where each answer corresponds to one of the 5 themes of Earth Day 2022. They will answer 5 of these "pick-one-of-three" questions, with each answer increasing their tally for a given theme. Next, the user answers whether they are seeking to find a charity to volunteer with, or to make donations towards. If there is "tie" in the results of their quiz, a final tiebreaker question will be displayed, which will offer the user a multiple choice question that only features answers that correspond to the "tied" scores the user has in the quiz. Once the tie is broken, or in the case that there is no tie to begin with, the user is presented with a button offering to take them to their results. The url attached to the button is generated using their chosen location, preferred "donation" type, and the theme they chose through completing the rest of the quiz.
+The quiz begins with the user selecting the location they wish to find a charity in. After the user submits this form and sets their location, they will be presented with their first multiple choice quiz question, where each answer corresponds to one of the 5 themes of Earth Day 2022. They will answer 5 of these "pick-one-of-three" questions, with each answer increasing their tally for a given theme. Next, the user answers whether they are seeking to find a charity to volunteer with, or to make donations towards. If there is "tie" in the results of their quiz, a final tiebreaker question will be displayed, which will offer the user a multiple choice question that only features answers that correspond to the "tied" scores the user has in the quiz. Once the tie is broken, or in the case that there is no tie to begin with, the user is presented with a button offering to take them to their results. The url attached to the button is generated using their chosen location, preferred "donation" type, and the theme they chose through completing the rest of the quiz.
 
-INFORMATION ABOUT CHARITY PAGES TO GO HERE
+Climate change charity page.
+
+Conservation and restoration charity page.
+
+End plastic charity page.
+
+Environmental literacy charity page.
+
+Food and the environment charity page.
 
 The 404 page lets the user know that there has been an error and gives them the option through a choice of buttons to be redirected to the home page, the quiz section, the information section and the contact us section.
 
